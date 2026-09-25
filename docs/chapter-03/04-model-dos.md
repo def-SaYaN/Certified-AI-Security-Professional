@@ -128,6 +128,7 @@ if requests_this_minute > 10: reject()
 if tokens_this_hour + len(tokenizer.encode(user_input)) > TOKEN_BUDGET:
     reject()
 ```
+
 </dd>
 
 <dt>Cap input length in tokens</dt>
@@ -184,12 +185,10 @@ large contexts or long generations.</dd>
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../05-supply-chain/" markdown>
-<span class="caisp-kicker">Next · LLM05</span>
-### Supply Chain Vulnerabilities
-Models and datasets as untrusted dependencies.
+<div class="caisp-cards">
+<a class="caisp-card" href="05-supply-chain.md">
+  <span class="caisp-kicker">Next · LLM05</span>
+  <span class="caisp-card-title">Supply Chain Vulnerabilities</span>
+  <span class="caisp-card-text">Models and datasets as untrusted dependencies.</span>
 </a>
-
 </div>

@@ -190,6 +190,7 @@ massively under-counts what you are actually paying for.
     if len(user_input) > 2000:
         reject()
     ```
+
     ```python
     # RIGHT — counts what you are billed for
     if len(tokenizer.encode(user_input)) > 500:
@@ -262,12 +263,10 @@ Breakdown  : Igno | re | ·all | ·prev | ious | ·inst | ruct | ions
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-03-summarizer/" markdown>
-<span class="caisp-kicker">Next · Lab 2.3</span>
-### Build a Summarizer
-Condense text with an LLM — and probe where it fails.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-03-summarizer.md">
+  <span class="caisp-kicker">Next · Lab 2.3</span>
+  <span class="caisp-card-title">Build a Summarizer</span>
+  <span class="caisp-card-text">Condense text with an LLM — and probe where it fails.</span>
 </a>
-
 </div>

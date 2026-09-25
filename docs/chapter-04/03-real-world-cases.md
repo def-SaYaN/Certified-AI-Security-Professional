@@ -184,12 +184,10 @@ genuinely difficult.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../04-devsecops-tooling/" markdown>
-<span class="caisp-kicker">Next · 4.4</span>
-### DevSecOps Tooling & Defenses
-SCA, static analysis, dynamic analysis, and AI firewalls.
+<div class="caisp-cards">
+<a class="caisp-card" href="04-devsecops-tooling.md">
+  <span class="caisp-kicker">Next · 4.4</span>
+  <span class="caisp-card-title">DevSecOps Tooling &amp; Defenses</span>
+  <span class="caisp-card-text">SCA, static analysis, dynamic analysis, and AI firewalls.</span>
 </a>
-
 </div>

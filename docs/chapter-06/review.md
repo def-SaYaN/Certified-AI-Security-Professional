@@ -209,19 +209,15 @@ detection — so prevent (control inputs) and prove (provenance).
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../" markdown>
-<span class="caisp-kicker">Back</span>
-### Chapter 6 Contents
-Revisit any section or lab.
+<div class="caisp-cards">
+<a class="caisp-card" href="index.md">
+  <span class="caisp-kicker">Back</span>
+  <span class="caisp-card-title">Chapter 6 Contents</span>
+  <span class="caisp-card-text">Revisit any section or lab.</span>
 </a>
-
-<div class="caisp-card" markdown>
-<span class="caisp-kicker">Coming next</span>
-### Chapter 7 — Emerging Threats, Governance & Compliance
-Model worms, fine-tuning backdoors, NIST AI RMF, ISO/IEC 42001, the EU AI Act — and two agent labs.
-The final chapter.
-</div>
-
+<a class="caisp-card" href="../chapter-07/index.md">
+  <span class="caisp-kicker">Next chapter</span>
+  <span class="caisp-card-title">Chapter 7 — Emerging Threats, Governance &amp; Compliance</span>
+  <span class="caisp-card-text">Model worms, fine-tuning backdoors, NIST AI RMF, ISO/IEC 42001, the EU AI Act — and two agent labs. The final chapter.</span>
+</a>
 </div>

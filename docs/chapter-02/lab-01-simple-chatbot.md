@@ -151,12 +151,10 @@ Now try to get interest rates discussed anyway. Suggested approaches:
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-02-tokenizers/" markdown>
-<span class="caisp-kicker">Next · Lab 2.2</span>
-### How Tokenizers Work
-See text the way a model sees it.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-02-tokenizers.md">
+  <span class="caisp-kicker">Next · Lab 2.2</span>
+  <span class="caisp-card-title">How Tokenizers Work</span>
+  <span class="caisp-card-text">See text the way a model sees it.</span>
 </a>
-
 </div>

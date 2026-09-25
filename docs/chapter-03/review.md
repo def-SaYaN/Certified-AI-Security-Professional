@@ -243,19 +243,15 @@ flowchart LR
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../" markdown>
-<span class="caisp-kicker">Back</span>
-### Chapter 3 Contents
-Revisit any category or lab.
+<div class="caisp-cards">
+<a class="caisp-card" href="index.md">
+  <span class="caisp-kicker">Back</span>
+  <span class="caisp-card-title">Chapter 3 Contents</span>
+  <span class="caisp-card-text">Revisit any category or lab.</span>
 </a>
-
-<div class="caisp-card" markdown>
-<span class="caisp-kicker">Coming next</span>
-### Chapter 4 — AI Attacks and Defenses Using DevOps
-Pipeline attacks, real-world incidents, and the defensive tooling: SCA, static and dynamic
-analysis, pickle scanning, and AI firewalls. Six hands-on labs.
-</div>
-
+<a class="caisp-card" href="../chapter-04/index.md">
+  <span class="caisp-kicker">Next chapter</span>
+  <span class="caisp-card-title">Chapter 4 — AI Attacks and Defenses Using DevOps</span>
+  <span class="caisp-card-text">Pipeline attacks, real-world incidents, and the defensive tooling: SCA, static and dynamic analysis, pickle scanning, and AI firewalls. Six hands-on labs.</span>
+</a>
 </div>

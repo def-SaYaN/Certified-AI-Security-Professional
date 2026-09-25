@@ -64,74 +64,62 @@ networks). Here is how this course handles them, and why.
 
 ## Sections
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../01-overview/" markdown>
-<span class="caisp-kicker">6.1</span>
-### Supply Chain Security Overview
-What a supply chain attack is, and why it is so effective.
+<div class="caisp-cards">
+<a class="caisp-card" href="01-overview.md">
+  <span class="caisp-kicker">6.1</span>
+  <span class="caisp-card-title">Supply Chain Security Overview</span>
+  <span class="caisp-card-text">What a supply chain attack is, and why it is so effective.</span>
 </a>
-
-<a class="caisp-card" href="../02-ai-supply-chain-attacks/" markdown>
-<span class="caisp-kicker">6.2</span>
-### AI Supply Chain Attacks
-Data, model, and infrastructure attacks; package masquerading.
+<a class="caisp-card" href="02-ai-supply-chain-attacks.md">
+  <span class="caisp-kicker">6.2</span>
+  <span class="caisp-card-title">AI Supply Chain Attacks</span>
+  <span class="caisp-card-text">Data, model, and infrastructure attacks; package masquerading.</span>
 </a>
-
-<a class="caisp-card" href="../03-vetting/" markdown>
-<span class="caisp-kicker">6.3</span>
-### Vetting Software Frameworks
-Building and automating a vetting process; dependency pinning.
+<a class="caisp-card" href="03-vetting.md">
+  <span class="caisp-kicker">6.3</span>
+  <span class="caisp-card-title">Vetting Software Frameworks</span>
+  <span class="caisp-card-text">Building and automating a vetting process; dependency pinning.</span>
 </a>
-
-<a class="caisp-card" href="../04-frameworks/" markdown>
-<span class="caisp-kicker">6.4</span>
-### Supply Chain Frameworks
-SLSA and the Software Component Verification Standard.
+<a class="caisp-card" href="04-frameworks.md">
+  <span class="caisp-kicker">6.4</span>
+  <span class="caisp-card-title">Supply Chain Frameworks</span>
+  <span class="caisp-card-text">SLSA and the Software Component Verification Standard.</span>
 </a>
-
-<a class="caisp-card" href="../05-transparency-integrity/" markdown>
-<span class="caisp-kicker">6.5</span>
-### Transparency & Integrity
-SBOMs, provenance, attestations, model cards, MLBOMs, model signing.
+<a class="caisp-card" href="05-transparency-integrity.md">
+  <span class="caisp-kicker">6.5</span>
+  <span class="caisp-card-title">Transparency &amp; Integrity</span>
+  <span class="caisp-card-text">SBOMs, provenance, attestations, model cards, MLBOMs, model signing.</span>
 </a>
-
 </div>
 
 ## Labs
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-01-rome/" markdown>
-<span class="caisp-kicker">Lab 6.1 · Understand</span>
-### Editing Models (ROME concept)
-How targeted model editing works — and why it is a supply-chain threat.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-01-rome.md">
+  <span class="caisp-kicker">Lab 6.1 · Understand</span>
+  <span class="caisp-card-title">Editing Models (ROME concept)</span>
+  <span class="caisp-card-text">How targeted model editing works — and why it is a supply-chain threat.</span>
 </a>
-
-<a class="caisp-card" href="../lab-02-trojanized-models/" markdown>
-<span class="caisp-kicker">Lab 6.2 · Detect</span>
-### How Trojanized Models Work
-The anatomy of a trojanized model, and how to reason about detection.
+<a class="caisp-card" href="lab-02-trojanized-models.md">
+  <span class="caisp-kicker">Lab 6.2 · Detect</span>
+  <span class="caisp-card-title">How Trojanized Models Work</span>
+  <span class="caisp-card-text">The anatomy of a trojanized model, and how to reason about detection.</span>
 </a>
-
-<a class="caisp-card" href="../lab-03-scanning/" markdown>
-<span class="caisp-kicker">Lab 6.3 · Defend</span>
-### Scanning Models for Malicious Code
-A multi-layer model scanner you build and run.
+<a class="caisp-card" href="lab-03-scanning.md">
+  <span class="caisp-kicker">Lab 6.3 · Defend</span>
+  <span class="caisp-card-title">Scanning Models for Malicious Code</span>
+  <span class="caisp-card-text">A multi-layer model scanner you build and run.</span>
 </a>
-
-<a class="caisp-card" href="../lab-04-sbom/" markdown>
-<span class="caisp-kicker">Lab 6.4 · Defend</span>
-### Generating an SBOM
-Produce a real SBOM, then extend the idea to an MLBOM.
+<a class="caisp-card" href="lab-04-sbom.md">
+  <span class="caisp-kicker">Lab 6.4 · Defend</span>
+  <span class="caisp-card-title">Generating an SBOM</span>
+  <span class="caisp-card-text">Produce a real SBOM, then extend the idea to an MLBOM.</span>
 </a>
-
-<a class="caisp-card" href="../lab-05-signing/" markdown>
-<span class="caisp-kicker">Lab 6.5 · Defend</span>
-### Signing & Verifying Models
-Cryptographic provenance — the defence that scales.
+<a class="caisp-card" href="lab-05-signing.md">
+  <span class="caisp-kicker">Lab 6.5 · Defend</span>
+  <span class="caisp-card-title">Signing &amp; Verifying Models</span>
+  <span class="caisp-card-text">Cryptographic provenance — the defence that scales.</span>
 </a>
-
 </div>
 
 ---

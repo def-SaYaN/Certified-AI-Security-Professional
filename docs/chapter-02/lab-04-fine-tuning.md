@@ -213,12 +213,10 @@ right-to-erasure regime.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-05-scraper/" markdown>
-<span class="caisp-kicker">Next · Lab 2.5</span>
-### A Website Scraper
-Feed the web to an LLM and meet indirect injection.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-05-scraper.md">
+  <span class="caisp-kicker">Next · Lab 2.5</span>
+  <span class="caisp-card-title">A Website Scraper</span>
+  <span class="caisp-card-text">Feed the web to an LLM and meet indirect injection.</span>
 </a>
-
 </div>

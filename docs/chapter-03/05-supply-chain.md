@@ -202,12 +202,10 @@ load cannot reach anything valuable.</dd>
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../06-sensitive-info-disclosure/" markdown>
-<span class="caisp-kicker">Next · LLM06</span>
-### Sensitive Information Disclosure
-When the model reveals what it should not.
+<div class="caisp-cards">
+<a class="caisp-card" href="06-sensitive-info-disclosure.md">
+  <span class="caisp-kicker">Next · LLM06</span>
+  <span class="caisp-card-title">Sensitive Information Disclosure</span>
+  <span class="caisp-card-text">When the model reveals what it should not.</span>
 </a>
-
 </div>

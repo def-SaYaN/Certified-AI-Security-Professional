@@ -208,12 +208,10 @@ attacker who controls the document controls part of the prompt.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-04-fine-tuning/" markdown>
-<span class="caisp-kicker">Next · Lab 2.4</span>
-### Fine-tune a Model
-Specialise a model on your own data — and inherit its risks.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-04-fine-tuning.md">
+  <span class="caisp-kicker">Next · Lab 2.4</span>
+  <span class="caisp-card-title">Fine-tune a Model</span>
+  <span class="caisp-card-text">Specialise a model on your own data — and inherit its risks.</span>
 </a>
-
 </div>

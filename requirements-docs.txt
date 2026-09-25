@@ -1,0 +1,4 @@
+# Tooling to build the course website (not needed for the labs).
+#   pip install -r requirements-docs.txt
+mkdocs>=1.6,<2
+mkdocs-material>=9.5,<10

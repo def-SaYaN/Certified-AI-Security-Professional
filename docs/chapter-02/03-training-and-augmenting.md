@@ -231,12 +231,10 @@ bake in.**
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../04-use-cases/" markdown>
-<span class="caisp-kicker">Next · 2.4</span>
-### Use Cases of LLMs
-Generation, understanding, and conversational AI — and the risk each carries.
+<div class="caisp-cards">
+<a class="caisp-card" href="04-use-cases.md">
+  <span class="caisp-kicker">Next · 2.4</span>
+  <span class="caisp-card-title">Use Cases of LLMs</span>
+  <span class="caisp-card-text">Generation, understanding, and conversational AI — and the risk each carries.</span>
 </a>
-
 </div>

@@ -248,12 +248,10 @@ originate.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../02-gpt-and-bert/" markdown>
-<span class="caisp-kicker">Next · 2.2</span>
-### Understanding LLMs — GPT & BERT
-Two architectures, two purposes: generation vs. understanding.
+<div class="caisp-cards">
+<a class="caisp-card" href="02-gpt-and-bert.md">
+  <span class="caisp-kicker">Next · 2.2</span>
+  <span class="caisp-card-title">Understanding LLMs — GPT &amp; BERT</span>
+  <span class="caisp-card-text">Two architectures, two purposes: generation vs. understanding.</span>
 </a>
-
 </div>

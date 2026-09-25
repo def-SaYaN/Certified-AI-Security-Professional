@@ -159,27 +159,22 @@ The worked example, which looks thorough, has **gaps**:
 
 Now the real work. Choose a system:
 
-<div class="caisp-cards" markdown>
-
-<div class="caisp-card" markdown>
-<span class="caisp-kicker">Option A · Easiest</span>
-### A lab you built
-The RAG system (Lab 2.6) or the vulnerable app (Lab 4.2). You know it completely.
+<div class="caisp-cards">
+<div class="caisp-card caisp-card--static">
+  <span class="caisp-kicker">Option A · Easiest</span>
+  <span class="caisp-card-title">A lab you built</span>
+  <span class="caisp-card-text">The RAG system (Lab 2.6) or the vulnerable app (Lab 4.2). You know it completely.</span>
 </div>
-
-<div class="caisp-card" markdown>
-<span class="caisp-kicker">Option B · Best practice</span>
-### A product you use
-Any AI feature — a coding assistant, an email summariser, a support bot. Model it **on paper only**;
-do not test without authorisation.
+<div class="caisp-card caisp-card--static">
+  <span class="caisp-kicker">Option B · Best practice</span>
+  <span class="caisp-card-title">A product you use</span>
+  <span class="caisp-card-text">Any AI feature — a coding assistant, an email summariser, a support bot. Model it <strong>on paper only</strong>; do not test without authorisation.</span>
 </div>
-
-<div class="caisp-card" markdown>
-<span class="caisp-kicker">Option C · Most valuable</span>
-### A system at work
-If you have a real AI project, model that. Do it *with* the engineers who built it.
+<div class="caisp-card caisp-card--static">
+  <span class="caisp-kicker">Option C · Most valuable</span>
+  <span class="caisp-card-title">A system at work</span>
+  <span class="caisp-card-text">If you have a real AI project, model that. Do it <em>with</em> the engineers who built it.</span>
 </div>
-
 </div>
 
 ### The procedure
@@ -279,12 +274,10 @@ Threat modeling is a communication exercise as much as a technical one. Practise
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../review/" markdown>
-<span class="caisp-kicker">Next</span>
-### Chapter 5 Review & Quiz
-Consolidate the process that ties the course together.
+<div class="caisp-cards">
+<a class="caisp-card" href="review.md">
+  <span class="caisp-kicker">Next</span>
+  <span class="caisp-card-title">Chapter 5 Review &amp; Quiz</span>
+  <span class="caisp-card-text">Consolidate the process that ties the course together.</span>
 </a>
-
 </div>

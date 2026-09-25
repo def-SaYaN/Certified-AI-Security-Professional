@@ -170,12 +170,10 @@ AI-initiated actions, and often the only way to reconstruct an incident.</dd>
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../08-excessive-agency/" markdown>
-<span class="caisp-kicker">Next · LLM08</span>
-### Excessive Agency
-The impact multiplier — and the highest-leverage control you have.
+<div class="caisp-cards">
+<a class="caisp-card" href="08-excessive-agency.md">
+  <span class="caisp-kicker">Next · LLM08</span>
+  <span class="caisp-card-title">Excessive Agency</span>
+  <span class="caisp-card-text">The impact multiplier — and the highest-leverage control you have.</span>
 </a>
-
 </div>

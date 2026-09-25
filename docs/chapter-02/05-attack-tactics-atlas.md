@@ -335,12 +335,10 @@ each applicable tactic in turn.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../06-malicious-llm-tools/" markdown>
-<span class="caisp-kicker">Next · 2.6</span>
-### Real-World Malicious LLM Tools
-WormGPT, FraudGPT, and what the criminal market means for defenders.
+<div class="caisp-cards">
+<a class="caisp-card" href="06-malicious-llm-tools.md">
+  <span class="caisp-kicker">Next · 2.6</span>
+  <span class="caisp-card-title">Real-World Malicious LLM Tools</span>
+  <span class="caisp-card-text">WormGPT, FraudGPT, and what the criminal market means for defenders.</span>
 </a>
-
 </div>

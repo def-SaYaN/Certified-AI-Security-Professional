@@ -224,12 +224,10 @@ inspiration misses.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../03-diagramming-dfd/" markdown>
-<span class="caisp-kicker">Next · 5.3</span>
-### Diagramming & Data Flow Diagrams
-The DFD and trust boundaries — where the analysis actually happens.
+<div class="caisp-cards">
+<a class="caisp-card" href="03-diagramming-dfd.md">
+  <span class="caisp-kicker">Next · 5.3</span>
+  <span class="caisp-card-title">Diagramming &amp; Data Flow Diagrams</span>
+  <span class="caisp-card-text">The DFD and trust boundaries — where the analysis actually happens.</span>
 </a>
-
 </div>

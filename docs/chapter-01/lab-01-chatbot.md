@@ -399,9 +399,11 @@ Go beyond the guided steps. These are open-ended; there is no single right answe
     The library is not installed, or your virtual environment is not active.
 
     Check for `(.venv)` in your prompt. Then:
+
     ```bash
     pip install -r labs/requirements.txt
     ```
+
     Or just use the offline backend: `--backend echo`.
 
 ??? failure "`OSError: We couldn't connect to 'https://huggingface.co'`"
@@ -410,6 +412,7 @@ Go beyond the guided steps. These are open-ended; there is no single right answe
 
 ??? failure "The local model is extremely slow"
     Expected on older CPUs. Reduce the work:
+
     ```bash
     python labs/chapter-01/chatbot.py --backend local --max-tokens 30
     ```
@@ -442,12 +445,10 @@ Go beyond the guided steps. These are open-ended; there is no single right answe
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../review/" markdown>
-<span class="caisp-kicker">Next</span>
-### Chapter 1 Review & Quiz
-Consolidate everything and self-test before Chapter 2.
+<div class="caisp-cards">
+<a class="caisp-card" href="review.md">
+  <span class="caisp-kicker">Next</span>
+  <span class="caisp-card-title">Chapter 1 Review &amp; Quiz</span>
+  <span class="caisp-card-text">Consolidate everything and self-test before Chapter 2.</span>
 </a>
-
 </div>

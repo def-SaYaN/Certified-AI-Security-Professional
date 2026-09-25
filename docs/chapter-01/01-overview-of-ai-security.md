@@ -284,12 +284,10 @@ questions. If you learn nothing else from this chapter, learn those questions.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../02-basics-of-ai/" markdown>
-<span class="caisp-kicker">Next · 1.2</span>
-### Basics of AI
-Now that you know *why* this matters, let's build up *what AI actually is*.
+<div class="caisp-cards">
+<a class="caisp-card" href="02-basics-of-ai.md">
+  <span class="caisp-kicker">Next · 1.2</span>
+  <span class="caisp-card-title">Basics of AI</span>
+  <span class="caisp-card-text">Now that you know <em>why</em> this matters, let's build up <em>what AI actually is</em>.</span>
 </a>
-
 </div>

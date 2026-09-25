@@ -180,12 +180,10 @@ Keep your work on the right side of that line, unfailingly. The
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-01-simple-chatbot/" markdown>
-<span class="caisp-kicker">Next · Labs begin</span>
-### Lab 2.1 — A Simple Chatbot
-Concepts done. Time to build and break. Ten labs ahead.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-01-simple-chatbot.md">
+  <span class="caisp-kicker">Next · Labs begin</span>
+  <span class="caisp-card-title">Lab 2.1 — A Simple Chatbot</span>
+  <span class="caisp-card-text">Concepts done. Time to build and break. Ten labs ahead.</span>
 </a>
-
 </div>

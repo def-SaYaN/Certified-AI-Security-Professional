@@ -40,6 +40,7 @@
 
 .caisp-hero h1 {
   margin: 0 0 0.3em;
+  color: var(--md-default-fg-color);
   font-size: 2.1rem;
   line-height: 1.15;
 }
@@ -89,6 +90,28 @@
 .caisp-card p {
   margin: 0;
   font-size: 0.72rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.caisp-card--static:hover {
+  border-color: var(--md-default-fg-color--lightest);
+  transform: none;
+  box-shadow: none;
+}
+
+.caisp-card .caisp-card-title {
+  display: block;
+  margin: 0 0 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 650;
+  line-height: 1.4;
+  color: var(--md-default-fg-color);
+}
+
+.caisp-card .caisp-card-text {
+  display: block;
+  font-size: 0.72rem;
+  line-height: 1.6;
   color: var(--md-default-fg-color--light);
 }
 
@@ -143,7 +166,7 @@
 /* --------------------------------------------------------------------------
    Metadata pills under chapter titles
    -------------------------------------------------------------------------- */
-.caisp-meta {
+.md-typeset ul.caisp-meta {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
@@ -152,7 +175,7 @@
   list-style: none;
 }
 
-.caisp-meta li {
+.md-typeset ul.caisp-meta > li {
   font-size: 0.62rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -161,7 +184,13 @@
   border-radius: 1rem;
   background: var(--md-default-fg-color--lightest);
   color: var(--md-default-fg-color--light);
-  margin: 0 !important;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.md-typeset ul.caisp-meta > li::before,
+.md-typeset ul.caisp-meta > li::marker {
+  content: none;
 }
 
 /* --------------------------------------------------------------------------

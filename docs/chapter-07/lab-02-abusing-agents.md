@@ -252,12 +252,10 @@ amount of guardrail tuning fixes it — the architecture must change.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../review/" markdown>
-<span class="caisp-kicker">Next</span>
-### Chapter 7 Review & Quiz
-The final review.
+<div class="caisp-cards">
+<a class="caisp-card" href="review.md">
+  <span class="caisp-kicker">Next</span>
+  <span class="caisp-card-title">Chapter 7 Review &amp; Quiz</span>
+  <span class="caisp-card-text">The final review.</span>
 </a>
-
 </div>

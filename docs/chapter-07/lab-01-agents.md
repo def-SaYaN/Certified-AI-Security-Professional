@@ -258,12 +258,10 @@ python labs/chapter-07/agent.py --task "refund order 1001" --audit
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-02-abusing-agents/" markdown>
-<span class="caisp-kicker">Next · Lab 7.2</span>
-### Assessing & Abusing AI Agents
-Attack it, then apply every defence in the course.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-02-abusing-agents.md">
+  <span class="caisp-kicker">Next · Lab 7.2</span>
+  <span class="caisp-card-title">Assessing &amp; Abusing AI Agents</span>
+  <span class="caisp-card-text">Attack it, then apply every defence in the course.</span>
 </a>
-
 </div>

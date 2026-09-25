@@ -177,6 +177,7 @@ These are <strong>security</strong> requirements. A system prompt cannot enforce
     ```text
     ✗  System prompt: "Never refund more than £500."
     ```
+
     ```python
     ✓  if refund_amount > 500: require_human_approval()
     ```
@@ -217,12 +218,10 @@ These are <strong>security</strong> requirements. A system prompt cannot enforce
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-03-data-extraction/" markdown>
-<span class="caisp-kicker">Next · Lab 3.3</span>
-### Extracting Sensitive Information
-Pull real secrets out of a system you built.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-03-data-extraction.md">
+  <span class="caisp-kicker">Next · Lab 3.3</span>
+  <span class="caisp-card-title">Extracting Sensitive Information</span>
+  <span class="caisp-card-text">Pull real secrets out of a system you built.</span>
 </a>
-
 </div>

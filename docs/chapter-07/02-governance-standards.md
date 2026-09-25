@@ -253,12 +253,10 @@ here is the translation table.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../03-legislation/" markdown>
-<span class="caisp-kicker">Next · 7.3</span>
-### AI Acts, Bills & Legislation
-The EU AI Act's risk tiers and the fragmented US picture.
+<div class="caisp-cards">
+<a class="caisp-card" href="03-legislation.md">
+  <span class="caisp-kicker">Next · 7.3</span>
+  <span class="caisp-card-title">AI Acts, Bills &amp; Legislation</span>
+  <span class="caisp-card-text">The EU AI Act's risk tiers and the fragmented US picture.</span>
 </a>
-
 </div>

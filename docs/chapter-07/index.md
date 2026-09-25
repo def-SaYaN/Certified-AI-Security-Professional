@@ -58,44 +58,37 @@ everything together.
 
 ## Sections
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../01-emerging-threats/" markdown>
-<span class="caisp-kicker">7.1</span>
-### Emerging Threats in AI
-Model worms, fine-tuning backdoors, evolving firmware, and provenance-less models.
+<div class="caisp-cards">
+<a class="caisp-card" href="01-emerging-threats.md">
+  <span class="caisp-kicker">7.1</span>
+  <span class="caisp-card-title">Emerging Threats in AI</span>
+  <span class="caisp-card-text">Model worms, fine-tuning backdoors, evolving firmware, and provenance-less models.</span>
 </a>
-
-<a class="caisp-card" href="../02-governance-standards/" markdown>
-<span class="caisp-kicker">7.2</span>
-### AI Governance & Standards
-NIST AI RMF, ISO/IEC 42001, and the wider landscape.
+<a class="caisp-card" href="02-governance-standards.md">
+  <span class="caisp-kicker">7.2</span>
+  <span class="caisp-card-title">AI Governance &amp; Standards</span>
+  <span class="caisp-card-text">NIST AI RMF, ISO/IEC 42001, and the wider landscape.</span>
 </a>
-
-<a class="caisp-card" href="../03-legislation/" markdown>
-<span class="caisp-kicker">7.3</span>
-### AI Acts, Bills & Legislation
-The EU AI Act's risk tiers, and the fragmented US picture.
+<a class="caisp-card" href="03-legislation.md">
+  <span class="caisp-kicker">7.3</span>
+  <span class="caisp-card-title">AI Acts, Bills &amp; Legislation</span>
+  <span class="caisp-card-text">The EU AI Act's risk tiers, and the fragmented US picture.</span>
 </a>
-
 </div>
 
 ## Labs
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-01-agents/" markdown>
-<span class="caisp-kicker">Lab 7.1 · Build</span>
-### Working with AI Agents
-Build a tool-using agent from scratch and watch it reason and act.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-01-agents.md">
+  <span class="caisp-kicker">Lab 7.1 · Build</span>
+  <span class="caisp-card-title">Working with AI Agents</span>
+  <span class="caisp-card-text">Build a tool-using agent from scratch and watch it reason and act.</span>
 </a>
-
-<a class="caisp-card" href="../lab-02-abusing-agents/" markdown>
-<span class="caisp-kicker">Lab 7.2 · Assess</span>
-### Assessing & Abusing AI Agents
-Attack an agent you built, then apply every defence in the course.
+<a class="caisp-card" href="lab-02-abusing-agents.md">
+  <span class="caisp-kicker">Lab 7.2 · Assess</span>
+  <span class="caisp-card-title">Assessing &amp; Abusing AI Agents</span>
+  <span class="caisp-card-text">Attack an agent you built, then apply every defence in the course.</span>
 </a>
-
 </div>
 
 ---

@@ -219,12 +219,10 @@ in Lab 2.5).</dd>
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../review/" markdown>
-<span class="caisp-kicker">Next</span>
-### Chapter 2 Review & Quiz
-Consolidate the biggest chapter in the course.
+<div class="caisp-cards">
+<a class="caisp-card" href="review.md">
+  <span class="caisp-kicker">Next</span>
+  <span class="caisp-card-title">Chapter 2 Review &amp; Quiz</span>
+  <span class="caisp-card-text">Consolidate the biggest chapter in the course.</span>
 </a>
-
 </div>

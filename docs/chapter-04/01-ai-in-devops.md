@@ -215,12 +215,10 @@ good model. But it means ML infrastructure often reflects research priorities:
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../02-ml-pipeline-attacks/" markdown>
-<span class="caisp-kicker">Next · 4.2</span>
-### The ML Pipeline & Its Attack Surface
-Walk the pipeline stage by stage and map where attackers get in.
+<div class="caisp-cards">
+<a class="caisp-card" href="02-ml-pipeline-attacks.md">
+  <span class="caisp-kicker">Next · 4.2</span>
+  <span class="caisp-card-title">The ML Pipeline &amp; Its Attack Surface</span>
+  <span class="caisp-card-text">Walk the pipeline stage by stage and map where attackers get in.</span>
 </a>
-
 </div>

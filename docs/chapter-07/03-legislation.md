@@ -4,7 +4,7 @@ tags:
   - Governance
 ---
 
-# 7.3 AI Acts, Bills, and Legislations
+# 7.3 AI Acts, Bills, and Legislation
 
 !!! objective "In this section"
     - The **EU AI Act** — the risk-tier model and what each tier requires
@@ -245,12 +245,10 @@ You are not the compliance function. But your work is where compliance succeeds 
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-01-agents/" markdown>
-<span class="caisp-kicker">Next · Lab 7.1</span>
-### Working with AI Agents
-Build a tool-using agent — the most capable and most dangerous AI systems.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-01-agents.md">
+  <span class="caisp-kicker">Next · Lab 7.1</span>
+  <span class="caisp-card-title">Working with AI Agents</span>
+  <span class="caisp-card-text">Build a tool-using agent — the most capable and most dangerous AI systems.</span>
 </a>
-
 </div>

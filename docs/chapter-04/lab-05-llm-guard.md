@@ -216,12 +216,10 @@ Consider the full picture:
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-06-guardrails/" markdown>
-<span class="caisp-kicker">Next · Lab 4.6</span>
-### Guarding LLM Input and Output
-Build the whole layer from scratch — and measure it honestly.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-06-guardrails.md">
+  <span class="caisp-kicker">Next · Lab 4.6</span>
+  <span class="caisp-card-title">Guarding LLM Input and Output</span>
+  <span class="caisp-card-text">Build the whole layer from scratch — and measure it honestly.</span>
 </a>
-
 </div>

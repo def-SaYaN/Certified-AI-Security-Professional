@@ -184,12 +184,10 @@ Not only at the start. Good moments:
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../02-parlance/" markdown>
-<span class="caisp-kicker">Next · 5.2</span>
-### The Threat Model Parlance
-The precise vocabulary — assets, threats, vulnerabilities, risk — and STRIDE.
+<div class="caisp-cards">
+<a class="caisp-card" href="02-parlance.md">
+  <span class="caisp-kicker">Next · 5.2</span>
+  <span class="caisp-card-title">The Threat Model Parlance</span>
+  <span class="caisp-card-text">The precise vocabulary — assets, threats, vulnerabilities, risk — and STRIDE.</span>
 </a>
-
 </div>

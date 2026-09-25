@@ -34,3 +34,4 @@ labs/**/*.log
 # OS
 .DS_Store
 Thumbs.db
+offline-site/

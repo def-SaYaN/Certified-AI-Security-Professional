@@ -189,12 +189,10 @@ contribute to it, and re-test model safety after every tune (section 2.3).</dd>
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../04-model-dos/" markdown>
-<span class="caisp-kicker">Next · LLM04</span>
-### Model Denial of Service
-Exhausting capacity — and the novel "denial of wallet".
+<div class="caisp-cards">
+<a class="caisp-card" href="04-model-dos.md">
+  <span class="caisp-kicker">Next · LLM04</span>
+  <span class="caisp-card-title">Model Denial of Service</span>
+  <span class="caisp-card-text">Exhausting capacity — and the novel "denial of wallet".</span>
 </a>
-
 </div>

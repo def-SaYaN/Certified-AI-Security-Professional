@@ -263,19 +263,15 @@ The two AI-specific ones are **ML Model Access** and **ML Attack Staging**.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../" markdown>
-<span class="caisp-kicker">Back</span>
-### Chapter 2 Contents
-Revisit any section or lab.
+<div class="caisp-cards">
+<a class="caisp-card" href="index.md">
+  <span class="caisp-kicker">Back</span>
+  <span class="caisp-card-title">Chapter 2 Contents</span>
+  <span class="caisp-card-text">Revisit any section or lab.</span>
 </a>
-
-<div class="caisp-card" markdown>
-<span class="caisp-kicker">Coming next</span>
-### Chapter 3 — LLM Top 10 Vulnerabilities
-The OWASP Top 10 for LLM Applications in depth — the largest exam domain, with four hands-on
-labs. *Paste Chapter 3 when you're ready.*
-</div>
-
+<a class="caisp-card" href="../chapter-03/index.md">
+  <span class="caisp-kicker">Next chapter</span>
+  <span class="caisp-card-title">Chapter 3 — LLM Top 10 Vulnerabilities</span>
+  <span class="caisp-card-text">The OWASP Top 10 for LLM Applications in depth — the largest exam domain, with four hands-on labs.</span>
+</a>
 </div>

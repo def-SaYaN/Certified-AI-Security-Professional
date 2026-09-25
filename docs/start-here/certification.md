@@ -221,18 +221,15 @@ If you can tick nine or more, book it.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-environment/" markdown>
-<span class="caisp-kicker">Next — do not skip</span>
-### Lab Environment Setup
-Install everything and run the smoke test.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-environment.md">
+  <span class="caisp-kicker">Next — do not skip</span>
+  <span class="caisp-card-title">Lab Environment Setup</span>
+  <span class="caisp-card-text">Install everything and run the smoke test.</span>
 </a>
-
-<a class="caisp-card" href="../support/" markdown>
-<span class="caisp-kicker">Then</span>
-### Course Support
-Join the community before you get stuck.
+<a class="caisp-card" href="support.md">
+  <span class="caisp-kicker">Then</span>
+  <span class="caisp-card-title">Course Support</span>
+  <span class="caisp-card-text">Join the community before you get stuck.</span>
 </a>
-
 </div>

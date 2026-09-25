@@ -57,56 +57,47 @@ flowchart LR
 
 ## Sections
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../01-what-is-threat-modeling/" markdown>
-<span class="caisp-kicker">5.1</span>
-### What Is Threat Modeling
-Why do it, the benefits, and the honest challenges.
+<div class="caisp-cards">
+<a class="caisp-card" href="01-what-is-threat-modeling.md">
+  <span class="caisp-kicker">5.1</span>
+  <span class="caisp-card-title">What Is Threat Modeling</span>
+  <span class="caisp-card-text">Why do it, the benefits, and the honest challenges.</span>
 </a>
-
-<a class="caisp-card" href="../02-parlance/" markdown>
-<span class="caisp-kicker">5.2</span>
-### The Threat Model Parlance
-Assets, weaknesses, vulnerabilities, risk — and STRIDE.
+<a class="caisp-card" href="02-parlance.md">
+  <span class="caisp-kicker">5.2</span>
+  <span class="caisp-card-title">The Threat Model Parlance</span>
+  <span class="caisp-card-text">Assets, weaknesses, vulnerabilities, risk — and STRIDE.</span>
 </a>
-
-<a class="caisp-card" href="../03-diagramming-dfd/" markdown>
-<span class="caisp-kicker">5.3</span>
-### Diagramming & Data Flow Diagrams
-DFD components and trust boundaries — the heart of the method.
+<a class="caisp-card" href="03-diagramming-dfd.md">
+  <span class="caisp-kicker">5.3</span>
+  <span class="caisp-card-title">Diagramming &amp; Data Flow Diagrams</span>
+  <span class="caisp-card-text">DFD components and trust boundaries — the heart of the method.</span>
 </a>
-
-<a class="caisp-card" href="../04-llm-architecture/" markdown>
-<span class="caisp-kicker">5.4</span>
-### An LLM Application Architecture
-A real LLM DFD, with STRIDE applied element by element.
+<a class="caisp-card" href="04-llm-architecture.md">
+  <span class="caisp-kicker">5.4</span>
+  <span class="caisp-card-title">An LLM Application Architecture</span>
+  <span class="caisp-card-text">A real LLM DFD, with STRIDE applied element by element.</span>
 </a>
-
-<a class="caisp-card" href="../05-threat-libraries/" markdown>
-<span class="caisp-kicker">5.5</span>
-### AI Threat Libraries
-STRIDE, OWASP, ATLAS, BIML, and the incident databases.
+<a class="caisp-card" href="05-threat-libraries.md">
+  <span class="caisp-kicker">5.5</span>
+  <span class="caisp-card-title">AI Threat Libraries</span>
+  <span class="caisp-card-text">STRIDE, OWASP, ATLAS, BIML, and the incident databases.</span>
 </a>
-
-<a class="caisp-card" href="../06-rating-risks/" markdown>
-<span class="caisp-kicker">5.6</span>
-### Rating & Managing Risks
-Turning a threat list into a prioritised action plan.
+<a class="caisp-card" href="06-rating-risks.md">
+  <span class="caisp-kicker">5.6</span>
+  <span class="caisp-card-title">Rating &amp; Managing Risks</span>
+  <span class="caisp-card-text">Turning a threat list into a prioritised action plan.</span>
 </a>
-
 </div>
 
 ## Lab
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-01-threat-model/" markdown>
-<span class="caisp-kicker">Lab 5.1</span>
-### Threat Modeling an AI System
-Produce a complete, structured threat model end to end — with a scaffold tool.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-01-threat-model.md">
+  <span class="caisp-kicker">Lab 5.1</span>
+  <span class="caisp-card-title">Threat Modeling an AI System</span>
+  <span class="caisp-card-text">Produce a complete, structured threat model end to end — with a scaffold tool.</span>
 </a>
-
 </div>
 
 ---

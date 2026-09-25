@@ -3,7 +3,8 @@
 !!! danger "Do not skip this page"
     Every hands-on lab in this course expects the environment described here. Setting it up
     now, carefully, takes about 20 minutes and saves you hours of confusing errors later.
-    When you finish, `python labs/check_setup.py` should print **READY**.
+    When you finish, `python labs/check_setup.py` should end with **ALL GREEN** (or
+    **READY (with warnings)**).
 
 ## What we are building
 
@@ -50,8 +51,8 @@ commands, and we give you every one.
 
     Open your terminal app — often ++ctrl+alt+t++, or search "Terminal" in your app menu.
 
-Throughout the course, a line starting with `$` (macOS/Linux) or `PS>` (Windows) shows a
-command to type. **Do not type the `$` or `PS>` itself** — just what comes after.
+Throughout the course, commands to type are shown in grey code boxes. Type them exactly as
+shown, or use the copy button in the top-right corner of each box.
 
 ---
 
@@ -191,6 +192,7 @@ time you open a new terminal** to work on the course.
     !!! note "If PowerShell blocks the script"
         You may see a message about execution policies. Run this once, then try activating
         again:
+
         ```powershell
         Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
         ```
@@ -232,8 +234,8 @@ This is the moment of truth. Run the checker:
 python labs/check_setup.py
 ```
 
-Read the output top to bottom. Every core library should say `PASS`. The last line should
-say **READY** or **ALL GREEN**.
+Read the output top to bottom. Every core library should say `PASS`. The result line should
+say **ALL GREEN** — or **READY (with warnings)**, which is also fine for Chapter 1.
 
 The script also tries to download a tiny model to prove your machine can fetch and run
 models from Hugging Face. If you are behind a corporate proxy or have no internet right
@@ -331,18 +333,15 @@ You do not need these for Chapter 1, but they make the whole course nicer.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../glossary/" markdown>
-<span class="caisp-kicker">Reference</span>
-### Glossary
-Keep this open while you read.
+<div class="caisp-cards">
+<a class="caisp-card" href="glossary.md">
+  <span class="caisp-kicker">Reference</span>
+  <span class="caisp-card-title">Glossary</span>
+  <span class="caisp-card-text">Keep this open while you read.</span>
 </a>
-
-<a class="caisp-card" href="../../chapter-01/" markdown>
-<span class="caisp-kicker">You're ready</span>
-### Start Chapter 1
-Introduction to AI Security.
+<a class="caisp-card" href="../chapter-01/index.md">
+  <span class="caisp-kicker">You're ready</span>
+  <span class="caisp-card-title">Start Chapter 1</span>
+  <span class="caisp-card-text">Introduction to AI Security.</span>
 </a>
-
 </div>

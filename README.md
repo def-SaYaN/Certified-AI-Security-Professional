@@ -1,100 +1,100 @@
 # Certified AI Security Professional (cAISP)
 
 A beginner-friendly, hands-on course in AI and LLM security, delivered as a searchable
-web-based course site with runnable labs.
+course website with runnable labs.
 
 **No ML background required. No GPU required. Every lab has an offline path.**
 
+| | |
+|---|---|
+| **Chapters** | 7, plus orientation and a wrap-up |
+| **Hands-on labs** | 29 |
+| **Estimated time** | ~65 hours starting from zero |
+| **Start reading** | [Home](docs/index.md) · [Start Here](docs/start-here/index.md) · [Syllabus](docs/start-here/syllabus.md) |
+
+> [!IMPORTANT]
+> This repository is for educational use. Read the [rules of engagement](#rules-of-engagement)
+> before running any lab.
+
 ---
 
-## Quick start
+## Reading the course
 
-### 1. View the course site
+The course is written for a [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)
+website, which adds navigation, search, tabbed instructions and styled callouts. The Markdown
+files are readable directly on GitHub, but that formatting only renders on the website. There are
+three ways to read it properly.
+
+### Option A — Download the built site (nothing to install)
+
+Every push to `main` builds and checks the site with GitHub Actions.
+
+1. Open the **Actions** tab → **Course site** → the latest successful run.
+2. Under **Artifacts**, download **`course-site-offline`** and unzip it.
+3. Open `index.html` in your browser. Navigation and search work offline.
+
+### Option B — Run it locally
 
 ```bash
 python3.12 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\Activate.ps1
-pip install mkdocs-material
+pip install -r requirements-docs.txt
 mkdocs serve
 ```
 
-Open <http://127.0.0.1:8000>.
+Open <http://127.0.0.1:8000>. Pages reload automatically as you edit them.
 
-### 2. Set up the labs
+### Option C — Publish with GitHub Pages (off by default)
+
+The workflow can deploy the site to
+`https://def-sayan.github.io/Certified-AI-Security-Professional/`.
+
+> [!WARNING]
+> On GitHub Free, Pro and Team plans, a GitHub Pages site is **publicly accessible** even when
+> the repository is private (and Pages on a private repository needs a paid plan). Only GitHub
+> Enterprise Cloud can restrict a Pages site to signed-in members. Turn this on only if you are
+> happy for the course to be public.
+
+To enable it:
+
+1. **Settings → Pages → Build and deployment → Source:** choose **GitHub Actions**.
+2. **Settings → Secrets and variables → Actions → Variables:** add `DEPLOY_PAGES` with the value
+   `true`.
+3. Push to `main` (or re-run the **Course site** workflow). The URL appears on the run summary.
+
+---
+
+## Setting up the labs
 
 ```bash
 pip install -r labs/requirements.txt
 python labs/check_setup.py
 ```
 
-You want to see **READY**. Full instructions are on the site under
-**Start Here → Lab Environment Setup**.
+You want to see **ALL GREEN** (or **READY (with warnings)**). Full instructions are in
+[Start Here → Lab Environment Setup](docs/start-here/lab-environment.md).
 
-!!! note
-    Use **Python 3.11 or 3.12**. Newer releases often lack PyTorch/Transformers wheels.
-
----
-
-## Project layout
-
-```
-.
-├── mkdocs.yml              # Site configuration and navigation
-├── docs/                   # Course content (Markdown)
-│   ├── index.md            # Home page
-│   ├── start-here/         # Orientation, syllabus, certification, lab setup, glossary
-│   ├── chapter-01/         # Introduction to AI Security  (7 sections + 1 lab)
-│   ├── chapter-02/         # Understanding & Attacking LLMs (6 sections + 10 labs)
-│   ├── chapter-03/         # LLM Top 10 Vulnerabilities (11 sections + 4 labs)
-│   ├── chapter-04/         # AI Attacks & Defenses Using DevOps (4 sections + 6 labs)
-│   ├── chapter-05/         # Threat Modeling AI Systems (6 sections + 1 lab)
-│   ├── chapter-06/         # Supply Chain Attacks in AI (5 sections + 5 labs)
-│   ├── chapter-07/         # Emerging Threats, Governance & Compliance (3 sections + 2 labs)
-│   └── wrap-up/            # Course wrap-up
-└── labs/                   # Runnable lab code
-    ├── requirements.txt
-    ├── check_setup.py      # Environment smoke test
-    ├── chapter-01/
-    │   └── chatbot.py      # Lab 1.1 — three-backend chatbot
-    ├── chapter-02/
-    │   ├── tokenizers.py           # Lab 2.2
-    │   ├── summarizer.py           # Lab 2.3
-    │   ├── scraper_rag.py          # Lab 2.5
-    │   ├── rag_system.py           # Lab 2.6
-    │   ├── sentiment.py            # Lab 2.8
-    │   └── backdoor_detection.py   # Lab 2.9
-    ├── chapter-03/
-    │   ├── injection_playground.py # Lab 3.1 — 8-level injection game
-    │   └── hallucination_lab.py    # Lab 3.4 — measure fabrication rates
-    ├── chapter-04/
-    │   ├── vulnerable_ai_app.py    # Lab 4.2 — 10 deliberate flaws (DO NOT DEPLOY)
-    │   ├── pickle_demo.py          # Lab 4.3 — malicious pickle + scanning
-    │   └── guardrails.py           # Lab 4.6 — guardrail layer + coverage eval
-    ├── chapter-05/
-    │   └── threat_model.py         # Lab 5.1 — STRIDE scaffold + risk rating
-    ├── chapter-06/
-    │   ├── edit_demo.py            # Lab 6.1 — surgical model editing (toy)
-    │   ├── model_scanner.py        # Lab 6.3 — 5-layer model scanner
-    │   └── sign_verify.py          # Lab 6.5 — signing + tamper detection
-    └── chapter-07/
-        └── agent.py                # Labs 7.1/7.2 — agent + attack suite
-```
+> [!NOTE]
+> Use **Python 3.11 or 3.12** (3.10 also works). Brand-new Python releases can lag behind
+> PyTorch and Transformers.
 
 ---
 
-## Course status
+## Course contents
 
-| Chapter | Sections | Labs | Status |
-|---|---|---|---|
-| Start Here | 6 pages | — | Complete |
-| 1 — Introduction to AI Security | 7 | 1 | Complete |
-| 2 — Understanding & Attacking LLMs | 6 | 10 | Complete |
-| 3 — LLM Top 10 Vulnerabilities | 11 | 4 | Complete |
-| 4 — AI Attacks & Defenses Using DevOps | 4 | 6 | Complete |
-| 5 — Threat Modeling AI Systems | 6 | 1 | Complete |
-| 6 — Supply Chain Attacks in AI | 5 | 5 | Complete |
-| 7 — Emerging Threats, Governance & Compliance | 3 | 2 | Complete |
-| Wrap-Up | 1 | — | Complete |
+| Chapter | Sections | Labs |
+|---|:---:|:---:|
+| [Start Here](docs/start-here/index.md) — orientation, syllabus, certification, lab setup, glossary | 6 | — |
+| [1 — Introduction to AI Security](docs/chapter-01/index.md) | 7 | 1 |
+| [2 — Understanding & Attacking LLMs](docs/chapter-02/index.md) | 6 | 10 |
+| [3 — LLM Top 10 Vulnerabilities](docs/chapter-03/index.md) | 11 | 4 |
+| [4 — AI Attacks & Defenses Using DevOps](docs/chapter-04/index.md) | 4 | 6 |
+| [5 — Threat Modeling AI Systems](docs/chapter-05/index.md) | 6 | 1 |
+| [6 — Supply Chain Attacks in AI](docs/chapter-06/index.md) | 5 | 5 |
+| [7 — Emerging Threats, Governance & Compliance](docs/chapter-07/index.md) | 3 | 2 |
+| [Wrap-Up](docs/wrap-up/index.md) | 1 | — |
+
+Every chapter ends with a review page, a self-marked quiz and a readiness checklist.
 
 ---
 
@@ -147,6 +147,80 @@ python labs/chapter-07/agent.py --demo
 python labs/chapter-07/agent.py --compare
 ```
 
+A few labs (2.4 fine-tuning, 2.7 offline adversarial search, 2.10 speech-to-text and 4.5 LLM
+Guard) have you write the script yourself; the full code is on the lab page.
+
+---
+
+## Project layout
+
+```
+.
+├── mkdocs.yml                 # Site configuration and navigation
+├── requirements-docs.txt      # Tooling to build the website
+├── docs/                      # Course content (Markdown)
+│   ├── index.md               # Home page
+│   ├── start-here/            # Orientation, syllabus, certification, lab setup, glossary
+│   ├── chapter-01/ … chapter-07/
+│   ├── wrap-up/
+│   └── assets/stylesheets/    # Theme overrides
+├── labs/                      # Runnable lab code
+│   ├── requirements.txt
+│   ├── check_setup.py         # Environment smoke test
+│   └── chapter-01/ … chapter-07/
+├── hooks/html_links.py        # Resolves and validates links inside HTML cards
+├── scripts/check_site.py      # Post-build checks (links, rendering)
+└── .github/workflows/docs.yml # Build, validate, package, optionally deploy
+```
+
+<details>
+<summary>Lab files by chapter</summary>
+
+```
+labs/
+├── chapter-01/chatbot.py               # Lab 1.1 — three-backend chatbot
+├── chapter-02/
+│   ├── tokenizers.py                   # Lab 2.2
+│   ├── summarizer.py                   # Lab 2.3
+│   ├── scraper_rag.py                  # Lab 2.5
+│   ├── rag_system.py                   # Lab 2.6
+│   ├── sentiment.py                    # Lab 2.8
+│   └── backdoor_detection.py           # Lab 2.9
+├── chapter-03/
+│   ├── injection_playground.py         # Lab 3.1 — 8-level injection game
+│   └── hallucination_lab.py            # Lab 3.4 — measure fabrication rates
+├── chapter-04/
+│   ├── vulnerable_ai_app.py            # Lab 4.2 — 10 deliberate flaws (DO NOT DEPLOY)
+│   ├── pickle_demo.py                  # Lab 4.3 — malicious pickle + scanning
+│   └── guardrails.py                   # Lab 4.6 — guardrail layer + coverage eval
+├── chapter-05/threat_model.py          # Lab 5.1 — STRIDE scaffold + risk rating
+├── chapter-06/
+│   ├── edit_demo.py                    # Lab 6.1 — surgical model editing (toy)
+│   ├── model_scanner.py                # Lab 6.3 — 5-layer model scanner
+│   └── sign_verify.py                  # Lab 6.5 — signing + tamper detection
+└── chapter-07/agent.py                 # Labs 7.1/7.2 — agent + attack suite
+```
+
+</details>
+
+---
+
+## Editing the course
+
+```bash
+mkdocs serve                      # live preview while you write
+mkdocs build --strict             # fails on broken links or config errors
+python scripts/check_site.py      # checks the rendered HTML
+```
+
+CI runs the same checks on every push and pull request. A few conventions keep the site
+rendering cleanly:
+
+- Leave a blank line before and after every fenced code block, including inside callouts.
+- Navigation cards are plain HTML. Link them to the source file (`href="02-basics-of-ai.md"`);
+  the build hook turns that into the right URL and fails the build if the page does not exist.
+- Inside raw HTML blocks such as `<dd>`, use HTML (`<em>`, `<code>`, `<a>`) rather than Markdown.
+
 ---
 
 ## Rules of engagement
@@ -163,15 +237,5 @@ without ever touching a system you do not own.
 
 Offensive material with genuine dual-use potential (trojanised model generation, self-propagating
 techniques, functional malware) is taught from a **detection and defence** perspective, using
-non-weaponized samples. This matches how reputable AI security training handles the same topics
+non-weaponised samples. This matches how reputable AI security training handles the same topics
 and costs nothing pedagogically — the assessed skill is recognition and mitigation.
-
----
-
-## Building the site for deployment
-
-```bash
-mkdocs build          # outputs to site/
-```
-
-The `site/` directory is a static site deployable to any web host, GitHub Pages, or S3.

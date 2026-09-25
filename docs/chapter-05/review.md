@@ -138,7 +138,7 @@ Database** for evidence.
     The attacker's perspective and sequencing — how an adversary moves through a system tactic by
     tactic — which is what you need for attack narratives and detection-coverage assessment.
 
-??? question "14. You are modelling an image classifier, not an LLM. Which libraries?"
+??? question "14. You are modeling an image classifier, not an LLM. Which libraries?"
     STRIDE for structure, BIML for ML-architecture coverage, and ATLAS. The OWASP LLM Top 10 is
     largely inapplicable as it is scoped to LLM applications.
 
@@ -190,19 +190,15 @@ Database** for evidence.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../" markdown>
-<span class="caisp-kicker">Back</span>
-### Chapter 5 Contents
-Revisit any section or the lab.
+<div class="caisp-cards">
+<a class="caisp-card" href="index.md">
+  <span class="caisp-kicker">Back</span>
+  <span class="caisp-card-title">Chapter 5 Contents</span>
+  <span class="caisp-card-text">Revisit any section or the lab.</span>
 </a>
-
-<div class="caisp-card" markdown>
-<span class="caisp-kicker">Coming next</span>
-### Chapter 6 — Supply Chain Attacks in AI
-Models as untrusted artefacts: vetting, SLSA, SBOMs, model cards, MLBOMs, and signing with Cosign.
-Five hands-on labs.
-</div>
-
+<a class="caisp-card" href="../chapter-06/index.md">
+  <span class="caisp-kicker">Next chapter</span>
+  <span class="caisp-card-title">Chapter 6 — Supply Chain Attacks in AI</span>
+  <span class="caisp-card-text">Models as untrusted artefacts: vetting, SLSA, SBOMs, model cards, MLBOMs, and signing with Cosign. Five hands-on labs.</span>
+</a>
 </div>

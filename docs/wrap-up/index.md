@@ -21,41 +21,32 @@ what is wrong with it and what to do about it.**
 
 Not the chapter list — the capabilities.
 
-<div class="caisp-cards" markdown>
-
-<div class="caisp-card" markdown>
-<span class="caisp-kicker">Understand</span>
-### How AI works
-Tokens, attention, transformers, RAG, fine-tuning, agents. You can read an AI architecture diagram
-and know what each box does.
+<div class="caisp-cards">
+<div class="caisp-card caisp-card--static">
+  <span class="caisp-kicker">Understand</span>
+  <span class="caisp-card-title">How AI works</span>
+  <span class="caisp-card-text">Tokens, attention, transformers, RAG, fine-tuning, agents. You can read an AI architecture diagram and know what each box does.</span>
 </div>
-
-<div class="caisp-card" markdown>
-<span class="caisp-kicker">Attack</span>
-### How it breaks
-Prompt injection direct and indirect, adversarial examples, backdoors, model extraction, agent
-hijacking — demonstrated, not just described.
+<div class="caisp-card caisp-card--static">
+  <span class="caisp-kicker">Attack</span>
+  <span class="caisp-card-title">How it breaks</span>
+  <span class="caisp-card-text">Prompt injection direct and indirect, adversarial examples, backdoors, model extraction, agent hijacking — demonstrated, not just described.</span>
 </div>
-
-<div class="caisp-card" markdown>
-<span class="caisp-kicker">Defend</span>
-### How to secure it
-Guardrails, scanning, SBOMs, signing, least privilege — and an honest sense of what each achieves.
+<div class="caisp-card caisp-card--static">
+  <span class="caisp-kicker">Defend</span>
+  <span class="caisp-card-title">How to secure it</span>
+  <span class="caisp-card-text">Guardrails, scanning, SBOMs, signing, least privilege — and an honest sense of what each achieves.</span>
 </div>
-
-<div class="caisp-card" markdown>
-<span class="caisp-kicker">Assess</span>
-### How to evaluate it
-Threat modeling, risk rating, evaluation harnesses, agent assessment methodology.
+<div class="caisp-card caisp-card--static">
+  <span class="caisp-kicker">Assess</span>
+  <span class="caisp-card-title">How to evaluate it</span>
+  <span class="caisp-card-text">Threat modeling, risk rating, evaluation harnesses, agent assessment methodology.</span>
 </div>
-
-<div class="caisp-card" markdown>
-<span class="caisp-kicker">Communicate</span>
-### How to make it matter
-OWASP, ATLAS, STRIDE, NIST AI RMF, ISO 42001, EU AI Act — the vocabulary that turns findings into
-action.
+<div class="caisp-card caisp-card--static">
+  <span class="caisp-kicker">Communicate</span>
+  <span class="caisp-card-title">How to make it matter</span>
+  <span class="caisp-card-text">OWASP, ATLAS, STRIDE, NIST AI RMF, ISO 42001, EU AI Act — the vocabulary that turns findings into action.</span>
 </div>
-
 </div>
 
 ---
@@ -178,24 +169,20 @@ Go and find the systems nobody has looked at yet.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../start-here/certification/" markdown>
-<span class="caisp-kicker">Next step</span>
-### Certification Guide
-Prepare for and book the exam.
+<div class="caisp-cards">
+<a class="caisp-card" href="../start-here/certification.md">
+  <span class="caisp-kicker">Next step</span>
+  <span class="caisp-card-title">Certification Guide</span>
+  <span class="caisp-card-text">Prepare for and book the exam.</span>
 </a>
-
-<a class="caisp-card" href="../start-here/glossary/" markdown>
-<span class="caisp-kicker">Reference</span>
-### Glossary
-Every term, one sentence each.
+<a class="caisp-card" href="../start-here/glossary.md">
+  <span class="caisp-kicker">Reference</span>
+  <span class="caisp-card-title">Glossary</span>
+  <span class="caisp-card-text">Every term, one sentence each.</span>
 </a>
-
-<a class="caisp-card" href="../start-here/support/" markdown>
-<span class="caisp-kicker">Community</span>
-### Course Support
-Lifetime access. Stay connected; pay it forward.
+<a class="caisp-card" href="../start-here/support.md">
+  <span class="caisp-kicker">Community</span>
+  <span class="caisp-card-title">Course Support</span>
+  <span class="caisp-card-text">Lifetime access. Stay connected; pay it forward.</span>
 </a>
-
 </div>

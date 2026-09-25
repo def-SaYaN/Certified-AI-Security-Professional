@@ -193,19 +193,15 @@ put there, and nobody can code-review a model.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../" markdown>
-<span class="caisp-kicker">Back</span>
-### Chapter 4 Contents
-Revisit any section or lab.
+<div class="caisp-cards">
+<a class="caisp-card" href="index.md">
+  <span class="caisp-kicker">Back</span>
+  <span class="caisp-card-title">Chapter 4 Contents</span>
+  <span class="caisp-card-text">Revisit any section or lab.</span>
 </a>
-
-<div class="caisp-card" markdown>
-<span class="caisp-kicker">Coming next</span>
-### Chapter 5 — Threat Modeling AI Systems
-STRIDE, data flow diagrams, AI threat libraries, and risk rating. The chapter that ties everything
-so far into a repeatable process.
-</div>
-
+<a class="caisp-card" href="../chapter-05/index.md">
+  <span class="caisp-kicker">Next chapter</span>
+  <span class="caisp-card-title">Chapter 5 — Threat Modeling AI Systems</span>
+  <span class="caisp-card-text">STRIDE, data flow diagrams, AI threat libraries, and risk rating. The chapter that ties everything so far into a repeatable process.</span>
+</a>
 </div>

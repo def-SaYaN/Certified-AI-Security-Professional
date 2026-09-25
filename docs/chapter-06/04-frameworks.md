@@ -200,12 +200,10 @@ Practical guidance:
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../05-transparency-integrity/" markdown>
-<span class="caisp-kicker">Next · 6.5</span>
-### Transparency & Integrity
-SBOMs, attestations, model cards, MLBOMs, and signing.
+<div class="caisp-cards">
+<a class="caisp-card" href="05-transparency-integrity.md">
+  <span class="caisp-kicker">Next · 6.5</span>
+  <span class="caisp-card-title">Transparency &amp; Integrity</span>
+  <span class="caisp-card-text">SBOMs, attestations, model cards, MLBOMs, and signing.</span>
 </a>
-
 </div>

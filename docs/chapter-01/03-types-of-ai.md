@@ -258,12 +258,10 @@ safety-critical (autonomous vehicles) to the contentious (biometric surveillance
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../04-core-components/" markdown>
-<span class="caisp-kicker">Next · 1.4</span>
-### Core Components of AI Systems
-Algorithms and models, data, and computing power — and how each is attacked.
+<div class="caisp-cards">
+<a class="caisp-card" href="04-core-components.md">
+  <span class="caisp-kicker">Next · 1.4</span>
+  <span class="caisp-card-title">Core Components of AI Systems</span>
+  <span class="caisp-card-text">Algorithms and models, data, and computing power — and how each is attacked.</span>
 </a>
-
 </div>

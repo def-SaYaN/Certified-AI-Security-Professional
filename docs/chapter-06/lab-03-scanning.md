@@ -67,6 +67,7 @@ containing a pickle, so a naive scanner that only looks at raw bytes misses them
                    (normal for many models, but it is the mechanism
                    attackers use).
     ```
+
     Good tooling distinguishes *"this is suspicious"* from *"this is how the format works"*. A
     scanner that screams CRITICAL at every `REDUCE` opcode will be ignored within a week.
 
@@ -202,12 +203,10 @@ model card, and signature material present, but the scanner explicitly notes:
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-04-sbom/" markdown>
-<span class="caisp-kicker">Next · Lab 6.4</span>
-### Generating an SBOM
-Know what you have, before you try to verify it.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-04-sbom.md">
+  <span class="caisp-kicker">Next · Lab 6.4</span>
+  <span class="caisp-card-title">Generating an SBOM</span>
+  <span class="caisp-card-text">Know what you have, before you try to verify it.</span>
 </a>
-
 </div>

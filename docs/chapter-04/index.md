@@ -66,74 +66,62 @@ flowchart TD
 
 ## Sections
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../01-ai-in-devops/" markdown>
-<span class="caisp-kicker">4.1</span>
-### Introduction to AI in DevOps
-DevOps, DevSecOps, and how AI both helps and complicates them.
+<div class="caisp-cards">
+<a class="caisp-card" href="01-ai-in-devops.md">
+  <span class="caisp-kicker">4.1</span>
+  <span class="caisp-card-title">Introduction to AI in DevOps</span>
+  <span class="caisp-card-text">DevOps, DevSecOps, and how AI both helps and complicates them.</span>
 </a>
-
-<a class="caisp-card" href="../02-ml-pipeline-attacks/" markdown>
-<span class="caisp-kicker">4.2</span>
-### The ML Pipeline & Its Attack Surface
-From data to deployment, stage by stage — and where attackers get in.
+<a class="caisp-card" href="02-ml-pipeline-attacks.md">
+  <span class="caisp-kicker">4.2</span>
+  <span class="caisp-card-title">The ML Pipeline &amp; Its Attack Surface</span>
+  <span class="caisp-card-text">From data to deployment, stage by stage — and where attackers get in.</span>
 </a>
-
-<a class="caisp-card" href="../03-real-world-cases/" markdown>
-<span class="caisp-kicker">4.3</span>
-### Real-World Cases
-Hugging Face, NotPetya, and SAP AI Core — three different lessons.
+<a class="caisp-card" href="03-real-world-cases.md">
+  <span class="caisp-kicker">4.3</span>
+  <span class="caisp-card-title">Real-World Cases</span>
+  <span class="caisp-card-text">Hugging Face, NotPetya, and SAP AI Core — three different lessons.</span>
 </a>
-
-<a class="caisp-card" href="../04-devsecops-tooling/" markdown>
-<span class="caisp-kicker">4.4</span>
-### DevSecOps Tooling & Defenses
-SCA, static analysis, dynamic analysis, and AI firewalls.
+<a class="caisp-card" href="04-devsecops-tooling.md">
+  <span class="caisp-kicker">4.4</span>
+  <span class="caisp-card-title">DevSecOps Tooling &amp; Defenses</span>
+  <span class="caisp-card-text">SCA, static analysis, dynamic analysis, and AI firewalls.</span>
 </a>
-
 </div>
 
 ## Labs
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-01-sca/" markdown>
-<span class="caisp-kicker">Lab 4.1 · Defend</span>
-### Vulnerable Third-Party Components
-Find and fix known vulnerabilities in an AI project's dependencies.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-01-sca.md">
+  <span class="caisp-kicker">Lab 4.1 · Defend</span>
+  <span class="caisp-card-title">Vulnerable Third-Party Components</span>
+  <span class="caisp-card-text">Find and fix known vulnerabilities in an AI project's dependencies.</span>
 </a>
-
-<a class="caisp-card" href="../lab-02-static-analysis/" markdown>
-<span class="caisp-kicker">Lab 4.2 · Defend</span>
-### Finding Weaknesses in AI Code
-Static analysis against realistic insecure AI application code.
+<a class="caisp-card" href="lab-02-static-analysis.md">
+  <span class="caisp-kicker">Lab 4.2 · Defend</span>
+  <span class="caisp-card-title">Finding Weaknesses in AI Code</span>
+  <span class="caisp-card-text">Static analysis against realistic insecure AI application code.</span>
 </a>
-
-<a class="caisp-card" href="../lab-03-picklescan/" markdown>
-<span class="caisp-kicker">Lab 4.3 · Defend</span>
-### Scanning a Malicious Pickle File
-See why loading a model is running a program.
+<a class="caisp-card" href="lab-03-picklescan.md">
+  <span class="caisp-kicker">Lab 4.3 · Defend</span>
+  <span class="caisp-card-title">Scanning a Malicious Pickle File</span>
+  <span class="caisp-card-text">See why loading a model is running a program.</span>
 </a>
-
-<a class="caisp-card" href="../lab-04-agent-scanning/" markdown>
-<span class="caisp-kicker">Lab 4.4 · Defend</span>
-### Scanning for Agent Vulnerabilities
-Assess an agentic system's tools and permissions systematically.
+<a class="caisp-card" href="lab-04-agent-scanning.md">
+  <span class="caisp-kicker">Lab 4.4 · Defend</span>
+  <span class="caisp-card-title">Scanning for Agent Vulnerabilities</span>
+  <span class="caisp-card-text">Assess an agentic system's tools and permissions systematically.</span>
 </a>
-
-<a class="caisp-card" href="../lab-05-llm-guard/" markdown>
-<span class="caisp-kicker">Lab 4.5 · Defend</span>
-### Sanitizing Prompts with LLM Guard
-Real guardrail tooling on the input side.
+<a class="caisp-card" href="lab-05-llm-guard.md">
+  <span class="caisp-kicker">Lab 4.5 · Defend</span>
+  <span class="caisp-card-title">Sanitizing Prompts with LLM Guard</span>
+  <span class="caisp-card-text">Real guardrail tooling on the input side.</span>
 </a>
-
-<a class="caisp-card" href="../lab-06-guardrails/" markdown>
-<span class="caisp-kicker">Lab 4.6 · Defend</span>
-### Guarding LLM Input and Output
-Build a complete guardrail layer, then measure its real coverage.
+<a class="caisp-card" href="lab-06-guardrails.md">
+  <span class="caisp-kicker">Lab 4.6 · Defend</span>
+  <span class="caisp-card-title">Guarding LLM Input and Output</span>
+  <span class="caisp-card-text">Build a complete guardrail layer, then measure its real coverage.</span>
 </a>
-
 </div>
 
 ---

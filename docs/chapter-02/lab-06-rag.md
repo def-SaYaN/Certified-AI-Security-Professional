@@ -307,12 +307,10 @@ retrievable by anyone who phrases a question well.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-07-textattack/" markdown>
-<span class="caisp-kicker">Next · Lab 2.7</span>
-### Attacking with TextAttack
-From building to breaking: adversarial examples against a real classifier.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-07-textattack.md">
+  <span class="caisp-kicker">Next · Lab 2.7</span>
+  <span class="caisp-card-title">Attacking with TextAttack</span>
+  <span class="caisp-card-text">From building to breaking: adversarial examples against a real classifier.</span>
 </a>
-
 </div>

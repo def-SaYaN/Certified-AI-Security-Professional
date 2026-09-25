@@ -213,12 +213,10 @@ upstream published overnight.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../04-frameworks/" markdown>
-<span class="caisp-kicker">Next · 6.4</span>
-### Supply Chain Frameworks
-SLSA and SCVS — structured maturity for supply chain security.
+<div class="caisp-cards">
+<a class="caisp-card" href="04-frameworks.md">
+  <span class="caisp-kicker">Next · 6.4</span>
+  <span class="caisp-card-title">Supply Chain Frameworks</span>
+  <span class="caisp-card-text">SLSA and SCVS — structured maturity for supply chain security.</span>
 </a>
-
 </div>

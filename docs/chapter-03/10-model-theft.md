@@ -39,7 +39,7 @@ had not disclosed.</dd>
 
 <dt>White-box access enables better attacks</dt>
 <dd>From section 2.5 (ML Model Access): with the weights, crafting adversarial examples becomes far
-easier and more precise. Theft is often a *step* toward attacking the deployed system, not the end
+easier and more precise. Theft is often a <em>step</em> toward attacking the deployed system, not the end
 goal.</dd>
 
 <dt>Guardrails can be stripped</dt>
@@ -181,12 +181,10 @@ high-value IP theft historically involves insiders.</dd>
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-01-prompt-injection/" markdown>
-<span class="caisp-kicker">Next · Labs begin</span>
-### Lab 3.1 — Prompt Injection Step by Step
-All ten covered. Now put the most important one in your hands.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-01-prompt-injection.md">
+  <span class="caisp-kicker">Next · Labs begin</span>
+  <span class="caisp-card-title">Lab 3.1 — Prompt Injection Step by Step</span>
+  <span class="caisp-card-text">All ten covered. Now put the most important one in your hands.</span>
 </a>
-
 </div>

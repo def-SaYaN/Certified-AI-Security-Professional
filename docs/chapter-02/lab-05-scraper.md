@@ -203,12 +203,10 @@ your scraper picks it up.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-06-rag/" markdown>
-<span class="caisp-kicker">Next · Lab 2.6</span>
-### Build a RAG System
-Take this further: index documents and watch indirect injection end to end.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-06-rag.md">
+  <span class="caisp-kicker">Next · Lab 2.6</span>
+  <span class="caisp-card-title">Build a RAG System</span>
+  <span class="caisp-card-text">Take this further: index documents and watch indirect injection end to end.</span>
 </a>
-
 </div>

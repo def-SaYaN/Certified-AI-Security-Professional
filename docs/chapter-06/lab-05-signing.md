@@ -275,12 +275,10 @@ The most important section of the lab.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../review/" markdown>
-<span class="caisp-kicker">Next</span>
-### Chapter 6 Review & Quiz
-Consolidate the supply chain material.
+<div class="caisp-cards">
+<a class="caisp-card" href="review.md">
+  <span class="caisp-kicker">Next</span>
+  <span class="caisp-card-title">Chapter 6 Review &amp; Quiz</span>
+  <span class="caisp-card-text">Consolidate the supply chain material.</span>
 </a>
-
 </div>

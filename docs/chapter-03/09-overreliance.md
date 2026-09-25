@@ -176,12 +176,10 @@ informed risk decision; an assumption does not.</dd>
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../10-model-theft/" markdown>
-<span class="caisp-kicker">Next · LLM10</span>
-### Model Theft
-The model as the asset being stolen.
+<div class="caisp-cards">
+<a class="caisp-card" href="10-model-theft.md">
+  <span class="caisp-kicker">Next · LLM10</span>
+  <span class="caisp-card-title">Model Theft</span>
+  <span class="caisp-card-text">The model as the asset being stolen.</span>
 </a>
-
 </div>
