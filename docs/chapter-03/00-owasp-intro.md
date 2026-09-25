@@ -46,6 +46,28 @@ on real incidents and observed attacks.
     [current official list](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
     for the exact wording in force when you sit your exam.
 
+??? info "Which edition does this chapter use? (2023 v1.1 → 2025 mapping)"
+    This chapter follows the **v1.1 (2023)** numbering, which is how the course syllabus is
+    organised. OWASP published a revised **2025** edition that renumbers and regroups the
+    categories. Use this table to translate between them:
+
+    | This course (v1.1, 2023) | 2025 edition |
+    |---|---|
+    | LLM01 Prompt Injection | LLM01:2025 Prompt Injection |
+    | LLM02 Insecure Output Handling | LLM05:2025 Improper Output Handling |
+    | LLM03 Training Data Poisoning | LLM04:2025 Data and Model Poisoning |
+    | LLM04 Model Denial of Service | LLM10:2025 Unbounded Consumption |
+    | LLM05 Supply Chain Vulnerabilities | LLM03:2025 Supply Chain |
+    | LLM06 Sensitive Information Disclosure | LLM02:2025 Sensitive Information Disclosure |
+    | LLM07 Insecure Plugin Design | Folded mainly into LLM06:2025 Excessive Agency |
+    | LLM08 Excessive Agency | LLM06:2025 Excessive Agency |
+    | LLM09 Overreliance | LLM09:2025 Misinformation |
+    | LLM10 Model Theft | Folded into LLM10:2025 Unbounded Consumption (model extraction) |
+    | *(covered under LLM06 here)* | **New:** LLM07:2025 System Prompt Leakage |
+    | *(covered under RAG in Ch. 1–2)* | **New:** LLM08:2025 Vector and Embedding Weaknesses |
+
+    Every 2025 category is taught somewhere in this course; only the labels and numbers moved.
+
 ---
 
 ## What the list is for
@@ -158,12 +180,10 @@ Ten categories is a lot to absorb. A method that works:
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../01-prompt-injection/" markdown>
-<span class="caisp-kicker">Next · LLM01</span>
-### Prompt Injection
-The most important vulnerability in the list, and the hardest to fix.
+<div class="caisp-cards">
+<a class="caisp-card" href="01-prompt-injection.md">
+  <span class="caisp-kicker">Next · LLM01</span>
+  <span class="caisp-card-title">Prompt Injection</span>
+  <span class="caisp-card-text">The most important vulnerability in the list, and the hardest to fix.</span>
 </a>
-
 </div>

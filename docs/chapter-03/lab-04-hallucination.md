@@ -226,12 +226,10 @@ improves tone can silently increase fabrication; without a harness you will neve
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../review/" markdown>
-<span class="caisp-kicker">Next</span>
-### Chapter 3 Review & Quiz
-Consolidate the largest exam domain.
+<div class="caisp-cards">
+<a class="caisp-card" href="review.md">
+  <span class="caisp-kicker">Next</span>
+  <span class="caisp-card-title">Chapter 3 Review &amp; Quiz</span>
+  <span class="caisp-card-text">Consolidate the largest exam domain.</span>
 </a>
-
 </div>

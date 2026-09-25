@@ -206,12 +206,10 @@ high-risk or poorly understood.</dd>
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../04-llm-architecture/" markdown>
-<span class="caisp-kicker">Next · 5.4</span>
-### An LLM Application Architecture
-A real DFD for an LLM app, with STRIDE applied element by element.
+<div class="caisp-cards">
+<a class="caisp-card" href="04-llm-architecture.md">
+  <span class="caisp-kicker">Next · 5.4</span>
+  <span class="caisp-card-title">An LLM Application Architecture</span>
+  <span class="caisp-card-text">A real DFD for an LLM app, with STRIDE applied element by element.</span>
 </a>
-
 </div>

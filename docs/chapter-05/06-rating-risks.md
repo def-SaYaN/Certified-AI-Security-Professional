@@ -231,12 +231,10 @@ A threat model nobody reads changes nothing. Practical guidance:
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-01-threat-model/" markdown>
-<span class="caisp-kicker">Next · Lab 5.1</span>
-### Threat Modeling an AI System
-Do the whole thing yourself, end to end, with a scaffold tool.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-01-threat-model.md">
+  <span class="caisp-kicker">Next · Lab 5.1</span>
+  <span class="caisp-card-title">Threat Modeling an AI System</span>
+  <span class="caisp-card-text">Do the whole thing yourself, end to end, with a scaffold tool.</span>
 </a>
-
 </div>

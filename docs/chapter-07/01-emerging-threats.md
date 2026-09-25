@@ -248,7 +248,7 @@ you ahead of most practitioners.</dd>
 <dd>Model hubs and AI platform providers publish security notices. If you depend on them, subscribe.</dd>
 
 <dt>Community</dt>
-<dd>The course [Mattermost `#threat-intel` channel](../start-here/support.md) exists for exactly
+<dd>The course <a href="../start-here/support.md">Mattermost <code>#threat-intel</code> channel</a> exists for exactly
 this.</dd>
 
 </dl>
@@ -290,12 +290,10 @@ this.</dd>
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../02-governance-standards/" markdown>
-<span class="caisp-kicker">Next · 7.2</span>
-### AI Governance & Standards
-NIST AI RMF, ISO/IEC 42001, and mapping your work to them.
+<div class="caisp-cards">
+<a class="caisp-card" href="02-governance-standards.md">
+  <span class="caisp-kicker">Next · 7.2</span>
+  <span class="caisp-card-title">AI Governance &amp; Standards</span>
+  <span class="caisp-card-text">NIST AI RMF, ISO/IEC 42001, and mapping your work to them.</span>
 </a>
-
 </div>

@@ -263,12 +263,10 @@ performance and worst-case behaviour — is the space in which AI security opera
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-01-chatbot/" markdown>
-<span class="caisp-kicker">Next · Lab 1.1</span>
-### Build a Chatbot with an LLM
-Enough theory. Time to build something and watch it work.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-01-chatbot.md">
+  <span class="caisp-kicker">Next · Lab 1.1</span>
+  <span class="caisp-card-title">Build a Chatbot with an LLM</span>
+  <span class="caisp-card-text">Enough theory. Time to build something and watch it work.</span>
 </a>
-
 </div>

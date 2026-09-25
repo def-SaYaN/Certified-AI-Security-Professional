@@ -5,47 +5,37 @@ hours of frustration later.
 
 Work through these pages **in order**:
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../about-the-course/" markdown>
-<span class="caisp-kicker">Step 1 · 10 min</span>
-### About This Course
-Who it is for, what you need, how each chapter is structured, and how to study
-effectively.
+<div class="caisp-cards">
+<a class="caisp-card" href="about-the-course.md">
+  <span class="caisp-kicker">Step 1 · 10 min</span>
+  <span class="caisp-card-title">About This Course</span>
+  <span class="caisp-card-text">Who it is for, what you need, how each chapter is structured, and how to study effectively.</span>
 </a>
-
-<a class="caisp-card" href="../syllabus/" markdown>
-<span class="caisp-kicker">Step 2 · 5 min</span>
-### Syllabus & Roadmap
-The full topic list for all seven chapters, with suggested pacing.
+<a class="caisp-card" href="syllabus.md">
+  <span class="caisp-kicker">Step 2 · 5 min</span>
+  <span class="caisp-card-title">Syllabus &amp; Roadmap</span>
+  <span class="caisp-card-text">The full topic list for all seven chapters, with suggested pacing.</span>
 </a>
-
-<a class="caisp-card" href="../certification/" markdown>
-<span class="caisp-kicker">Step 3 · 10 min</span>
-### Certification Guide
-Exam format, what is tested, and a realistic preparation plan.
+<a class="caisp-card" href="certification.md">
+  <span class="caisp-kicker">Step 3 · 10 min</span>
+  <span class="caisp-card-title">Certification Guide</span>
+  <span class="caisp-card-text">Exam format, what is tested, and a realistic preparation plan.</span>
 </a>
-
-<a class="caisp-card" href="../lab-environment/" markdown>
-<span class="caisp-kicker">Step 4 · 20 min</span>
-### Lab Environment Setup
-Install Python, create a virtual environment, install the libraries, and run the
-smoke test. **Do not skip this.**
+<a class="caisp-card" href="lab-environment.md">
+  <span class="caisp-kicker">Step 4 · 20 min</span>
+  <span class="caisp-card-title">Lab Environment Setup</span>
+  <span class="caisp-card-text">Install Python, create a virtual environment, install the libraries, and run the smoke test. <strong>Do not skip this.</strong></span>
 </a>
-
-<a class="caisp-card" href="../support/" markdown>
-<span class="caisp-kicker">Step 5 · 5 min</span>
-### Course Support
-Join the Mattermost community, and learn how to ask a question that actually gets
-answered.
+<a class="caisp-card" href="support.md">
+  <span class="caisp-kicker">Step 5 · 5 min</span>
+  <span class="caisp-card-title">Course Support</span>
+  <span class="caisp-card-text">Join the Mattermost community, and learn how to ask a question that actually gets answered.</span>
 </a>
-
-<a class="caisp-card" href="../glossary/" markdown>
-<span class="caisp-kicker">Reference</span>
-### Glossary
-Every term the course uses, defined in one sentence. Keep it open in a tab.
+<a class="caisp-card" href="glossary.md">
+  <span class="caisp-kicker">Reference</span>
+  <span class="caisp-card-title">Glossary</span>
+  <span class="caisp-card-text">Every term the course uses, defined in one sentence. Keep it open in a tab.</span>
 </a>
-
 </div>
 
 ---
@@ -55,7 +45,8 @@ Every term the course uses, defined in one sentence. Keep it open in a tab.
 If you only read one thing on this page, read this.
 
 1. **Install the lab.** Follow [Lab Environment Setup](lab-environment.md) end to end,
-   and make sure `python check_setup.py` prints all green.
+   and make sure `python labs/check_setup.py` ends with **ALL GREEN** (or
+   **READY (with warnings)**).
 2. **Read each chapter in order.** Concepts compound. Chapter 3 assumes Chapter 2.
 3. **Do every lab.** Reading about prompt injection teaches you the words. Doing it
    teaches you the skill. The exam tests the skill.

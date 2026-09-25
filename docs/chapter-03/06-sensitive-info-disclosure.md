@@ -175,12 +175,10 @@ record, do not provide one.</dd>
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../07-insecure-plugin-design/" markdown>
-<span class="caisp-kicker">Next · LLM07</span>
-### Insecure Plugin Design
-Tools that trust their caller.
+<div class="caisp-cards">
+<a class="caisp-card" href="07-insecure-plugin-design.md">
+  <span class="caisp-kicker">Next · LLM07</span>
+  <span class="caisp-card-title">Insecure Plugin Design</span>
+  <span class="caisp-card-text">Tools that trust their caller.</span>
 </a>
-
 </div>

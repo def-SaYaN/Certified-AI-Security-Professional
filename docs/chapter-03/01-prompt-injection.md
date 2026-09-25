@@ -315,12 +315,10 @@ flowchart TD
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../02-insecure-output-handling/" markdown>
-<span class="caisp-kicker">Next · LLM02</span>
-### Insecure Output Handling
-Injection is the entry; this is often the exit. What happens to what the model says.
+<div class="caisp-cards">
+<a class="caisp-card" href="02-insecure-output-handling.md">
+  <span class="caisp-kicker">Next · LLM02</span>
+  <span class="caisp-card-title">Insecure Output Handling</span>
+  <span class="caisp-card-text">Injection is the entry; this is often the exit. What happens to what the model says.</span>
 </a>
-
 </div>

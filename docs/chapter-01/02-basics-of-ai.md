@@ -270,12 +270,10 @@ traditional-security analogue, because normal web requests do not cost you dolla
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../03-types-of-ai/" markdown>
-<span class="caisp-kicker">Next · 1.3</span>
-### Types of AI
-Narrow vs. general, the three learning styles, NLP and computer vision.
+<div class="caisp-cards">
+<a class="caisp-card" href="03-types-of-ai.md">
+  <span class="caisp-kicker">Next · 1.3</span>
+  <span class="caisp-card-title">Types of AI</span>
+  <span class="caisp-card-text">Narrow vs. general, the three learning styles, NLP and computer vision.</span>
 </a>
-
 </div>

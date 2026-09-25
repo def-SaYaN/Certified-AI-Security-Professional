@@ -240,12 +240,10 @@ language is unbounded (Lab 2.2).</dd>
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../review/" markdown>
-<span class="caisp-kicker">Next</span>
-### Chapter 4 Review & Quiz
-Consolidate the defensive toolkit.
+<div class="caisp-cards">
+<a class="caisp-card" href="review.md">
+  <span class="caisp-kicker">Next</span>
+  <span class="caisp-card-title">Chapter 4 Review &amp; Quiz</span>
+  <span class="caisp-card-text">Consolidate the defensive toolkit.</span>
 </a>
-
 </div>

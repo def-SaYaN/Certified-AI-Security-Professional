@@ -62,14 +62,15 @@ Nobody can help with this. There is nothing to go on.
 
 ### The same question, asked well
 
-> **Goal:** Running Lab 1.1 (chatbot), the offline `transformers` path.
+> **Goal:** Running Lab 1.1 (chatbot) with the local `transformers` backend.
 >
-> **Command:** `python labs/chapter-01/chatbot.py --offline`
+> **Command:** `python labs/chapter-01/chatbot.py --backend local`
 >
 > **Expected:** A chat prompt.
 >
 > **Actual:** It crashes immediately with:
-> ```
+>
+> ```text
 > OSError: We couldn't connect to 'https://huggingface.co' to load this file
 > ```
 >
@@ -105,18 +106,15 @@ points straight at the cause (a proxy blocking the model download).
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../glossary/" markdown>
-<span class="caisp-kicker">Reference</span>
-### Glossary
-Every term, one sentence each.
+<div class="caisp-cards">
+<a class="caisp-card" href="glossary.md">
+  <span class="caisp-kicker">Reference</span>
+  <span class="caisp-card-title">Glossary</span>
+  <span class="caisp-card-text">Every term, one sentence each.</span>
 </a>
-
-<a class="caisp-card" href="../lab-environment/" markdown>
-<span class="caisp-kicker">Now do this</span>
-### Lab Environment Setup
-Get your machine ready for Chapter 1.
+<a class="caisp-card" href="lab-environment.md">
+  <span class="caisp-kicker">Now do this</span>
+  <span class="caisp-card-title">Lab Environment Setup</span>
+  <span class="caisp-card-text">Get your machine ready for Chapter 1.</span>
 </a>
-
 </div>

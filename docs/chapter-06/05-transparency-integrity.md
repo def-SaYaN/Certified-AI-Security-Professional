@@ -292,12 +292,10 @@ A mature AI supply chain practice:
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-01-rome/" markdown>
-<span class="caisp-kicker">Next · Labs begin</span>
-### Lab 6.1 — Editing Models (ROME concept)
-How surgical model editing works, and why it threatens the supply chain.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-01-rome.md">
+  <span class="caisp-kicker">Next · Labs begin</span>
+  <span class="caisp-card-title">Lab 6.1 — Editing Models (ROME concept)</span>
+  <span class="caisp-card-text">How surgical model editing works, and why it threatens the supply chain.</span>
 </a>
-
 </div>

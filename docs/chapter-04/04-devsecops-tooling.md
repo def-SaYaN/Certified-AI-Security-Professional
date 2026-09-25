@@ -282,12 +282,10 @@ What good looks like, end to end:
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-01-sca/" markdown>
-<span class="caisp-kicker">Next · Labs begin</span>
-### Lab 4.1 — Vulnerable Third-Party Components
-Six defensive labs ahead. Start with the dependency layer.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-01-sca.md">
+  <span class="caisp-kicker">Next · Labs begin</span>
+  <span class="caisp-card-title">Lab 4.1 — Vulnerable Third-Party Components</span>
+  <span class="caisp-card-text">Six defensive labs ahead. Start with the dependency layer.</span>
 </a>
-
 </div>

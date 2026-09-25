@@ -43,62 +43,52 @@ everything downstream is easier.
 
 Read the sections in order:
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../01-overview-of-ai-security/" markdown>
-<span class="caisp-kicker">1.1</span>
-### An Overview of AI Security
-Why AI breaks differently from normal software, and who is trying to break it.
+<div class="caisp-cards">
+<a class="caisp-card" href="01-overview-of-ai-security.md">
+  <span class="caisp-kicker">1.1</span>
+  <span class="caisp-card-title">An Overview of AI Security</span>
+  <span class="caisp-card-text">Why AI breaks differently from normal software, and who is trying to break it.</span>
 </a>
-
-<a class="caisp-card" href="../02-basics-of-ai/" markdown>
-<span class="caisp-kicker">1.2</span>
-### Basics of AI
-What AI is, where it came from, and the key ideas.
+<a class="caisp-card" href="02-basics-of-ai.md">
+  <span class="caisp-kicker">1.2</span>
+  <span class="caisp-card-title">Basics of AI</span>
+  <span class="caisp-card-text">What AI is, where it came from, and the key ideas.</span>
 </a>
-
-<a class="caisp-card" href="../03-types-of-ai/" markdown>
-<span class="caisp-kicker">1.3</span>
-### Types of AI
-Narrow vs. general; the three learning styles; NLP and vision.
+<a class="caisp-card" href="03-types-of-ai.md">
+  <span class="caisp-kicker">1.3</span>
+  <span class="caisp-card-title">Types of AI</span>
+  <span class="caisp-card-text">Narrow vs. general; the three learning styles; NLP and vision.</span>
 </a>
-
-<a class="caisp-card" href="../04-core-components/" markdown>
-<span class="caisp-kicker">1.4</span>
-### Core Components of AI Systems
-Algorithms and models, data, and computing power.
+<a class="caisp-card" href="04-core-components.md">
+  <span class="caisp-kicker">1.4</span>
+  <span class="caisp-card-title">Core Components of AI Systems</span>
+  <span class="caisp-card-text">Algorithms and models, data, and computing power.</span>
 </a>
-
-<a class="caisp-card" href="../05-intro-to-ml/" markdown>
-<span class="caisp-kicker">1.5</span>
-### Introduction to Machine Learning
-What ML is, how it differs from AI, and the key concepts.
+<a class="caisp-card" href="05-intro-to-ml.md">
+  <span class="caisp-kicker">1.5</span>
+  <span class="caisp-card-title">Introduction to Machine Learning</span>
+  <span class="caisp-card-text">What ML is, how it differs from AI, and the key concepts.</span>
 </a>
-
-<a class="caisp-card" href="../06-rag/" markdown>
-<span class="caisp-kicker">1.6</span>
-### Retrieval Augmented Generation
-How models get access to knowledge they were not trained on.
+<a class="caisp-card" href="06-rag.md">
+  <span class="caisp-kicker">1.6</span>
+  <span class="caisp-card-title">Retrieval Augmented Generation</span>
+  <span class="caisp-card-text">How models get access to knowledge they were not trained on.</span>
 </a>
-
-<a class="caisp-card" href="../07-deep-learning/" markdown>
-<span class="caisp-kicker">1.7</span>
-### Basics of Deep Learning
-Neural networks and CNNs, explained gently.
+<a class="caisp-card" href="07-deep-learning.md">
+  <span class="caisp-kicker">1.7</span>
+  <span class="caisp-card-title">Basics of Deep Learning</span>
+  <span class="caisp-card-text">Neural networks and CNNs, explained gently.</span>
 </a>
-
-<a class="caisp-card" href="../lab-01-chatbot/" markdown>
-<span class="caisp-kicker">Lab 1.1</span>
-### Build a Chatbot with an LLM
-Your first hands-on build. Works fully offline.
+<a class="caisp-card" href="lab-01-chatbot.md">
+  <span class="caisp-kicker">Lab 1.1</span>
+  <span class="caisp-card-title">Build a Chatbot with an LLM</span>
+  <span class="caisp-card-text">Your first hands-on build. Works fully offline.</span>
 </a>
-
-<a class="caisp-card" href="../review/" markdown>
-<span class="caisp-kicker">Wrap-up</span>
-### Review & Quiz
-Consolidate and self-test before Chapter 2.
+<a class="caisp-card" href="review.md">
+  <span class="caisp-kicker">Wrap-up</span>
+  <span class="caisp-card-title">Review &amp; Quiz</span>
+  <span class="caisp-card-text">Consolidate and self-test before Chapter 2.</span>
 </a>
-
 </div>
 
 ---

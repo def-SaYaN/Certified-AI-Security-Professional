@@ -67,6 +67,7 @@ known vulnerabilities with their fixed versions.
     the skill being taught is the process, not a specific finding.
 
     If you get a clean result, try scanning an intentionally old set:
+
     ```bash
     echo "requests==2.19.0" > /tmp/old.txt
     pip-audit -r /tmp/old.txt
@@ -187,12 +188,10 @@ Your project depends on:
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-02-static-analysis/" markdown>
-<span class="caisp-kicker">Next · Lab 4.2</span>
-### Finding Weaknesses in AI Code
-Static analysis against realistic insecure AI application code.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-02-static-analysis.md">
+  <span class="caisp-kicker">Next · Lab 4.2</span>
+  <span class="caisp-card-title">Finding Weaknesses in AI Code</span>
+  <span class="caisp-card-text">Static analysis against realistic insecure AI application code.</span>
 </a>
-
 </div>

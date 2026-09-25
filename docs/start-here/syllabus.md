@@ -92,7 +92,7 @@ default order is recommended.
 
 **Hands-on exercise**
 
-- :material-flask: Lab 1.1 — Building a chatbot using an LLM
+- :material-flask: [Lab 1.1 — Building a chatbot using an LLM](../chapter-01/lab-01-chatbot.md)
 
 **Estimated time:** 5–7 hours
 
@@ -153,16 +153,16 @@ default order is recommended.
 
 **Hands-on exercises**
 
-- :material-flask: Creating a simple chatbot
-- :material-flask: Exploring how tokenizers work
-- :material-flask: Building a summarizer tool using an LLM
-- :material-flask: Building a fine-tuned model
-- :material-flask: Building a simple website scraper
-- :material-flask: Building a RAG system
-- :material-flask: Attacking an LLM model using TextAttack
-- :material-flask: Performing sentiment analysis using an LLM
-- :material-flask: Backdoor attacks using BackdoorBox
-- :material-flask: Building a speech-to-text system
+- :material-flask: [Lab 2.1 — Creating a simple chatbot](../chapter-02/lab-01-simple-chatbot.md)
+- :material-flask: [Lab 2.2 — Exploring how tokenizers work](../chapter-02/lab-02-tokenizers.md)
+- :material-flask: [Lab 2.3 — Building a summarizer tool using an LLM](../chapter-02/lab-03-summarizer.md)
+- :material-flask: [Lab 2.4 — Building a fine-tuned model](../chapter-02/lab-04-fine-tuning.md)
+- :material-flask: [Lab 2.5 — Building a simple website scraper](../chapter-02/lab-05-scraper.md)
+- :material-flask: [Lab 2.6 — Building a RAG system](../chapter-02/lab-06-rag.md)
+- :material-flask: [Lab 2.7 — Attacking an LLM model using TextAttack](../chapter-02/lab-07-textattack.md)
+- :material-flask: [Lab 2.8 — Performing sentiment analysis using an LLM](../chapter-02/lab-08-sentiment.md)
+- :material-flask: [Lab 2.9 — Backdoor attacks — understanding and detection](../chapter-02/lab-09-backdoors.md)
+- :material-flask: [Lab 2.10 — Building a speech-to-text system](../chapter-02/lab-10-speech-to-text.md)
 
 **Estimated time:** 12–15 hours — this is the largest chapter
 
@@ -233,10 +233,10 @@ default order is recommended.
 
 **Hands-on exercises**
 
-- :material-flask: Learning prompt injection step by step
-- :material-flask: Working with user prompts and system prompts
-- :material-flask: Extracting sensitive information through an LLM
-- :material-flask: LLM hallucination lab
+- :material-flask: [Lab 3.1 — Learning prompt injection step by step](../chapter-03/lab-01-prompt-injection.md)
+- :material-flask: [Lab 3.2 — Working with user prompts and system prompts](../chapter-03/lab-02-system-user-prompts.md)
+- :material-flask: [Lab 3.3 — Extracting sensitive information through an LLM](../chapter-03/lab-03-data-extraction.md)
+- :material-flask: [Lab 3.4 — LLM hallucination lab](../chapter-03/lab-04-hallucination.md)
 
 **Estimated time:** 10–12 hours
 
@@ -273,12 +273,12 @@ default order is recommended.
 
 **Hands-on exercises**
 
-- :material-flask: Analyzing and fixing vulnerabilities in third-party components
-- :material-flask: Finding and fixing weaknesses in AI code
-- :material-flask: Scanning a malicious pickle file using Picklescan
-- :material-flask: Scanning an LLM for agent-based vulnerabilities
-- :material-flask: Sanitizing prompts with LLM Guard
-- :material-flask: Guarding LLM input and output
+- :material-flask: [Lab 4.1 — Analyzing and fixing vulnerabilities in third-party components](../chapter-04/lab-01-sca.md)
+- :material-flask: [Lab 4.2 — Finding and fixing weaknesses in AI code](../chapter-04/lab-02-static-analysis.md)
+- :material-flask: [Lab 4.3 — Scanning a malicious pickle file using Picklescan](../chapter-04/lab-03-picklescan.md)
+- :material-flask: [Lab 4.4 — Scanning an LLM for agent-based vulnerabilities](../chapter-04/lab-04-agent-scanning.md)
+- :material-flask: [Lab 4.5 — Sanitizing prompts with LLM Guard](../chapter-04/lab-05-llm-guard.md)
+- :material-flask: [Lab 4.6 — Guarding LLM input and output](../chapter-04/lab-06-guardrails.md)
 
 **Estimated time:** 8–10 hours
 
@@ -332,7 +332,7 @@ default order is recommended.
 
 **Hands-on exercise**
 
-- :material-flask: Threat modeling an AI system
+- :material-flask: [Lab 5.1 — Threat modeling an AI system](../chapter-05/lab-01-threat-model.md)
 
 **Estimated time:** 6–8 hours
 
@@ -374,11 +374,11 @@ default order is recommended.
 
 **Hands-on exercises**
 
-- :material-flask: Editing models using the ROME technique
-- :material-flask: Creating trojanized models
-- :material-flask: Creating trojanized neural network models
-- :material-flask: Scanning models and injecting malicious code
-- :material-flask: Signing and verifying machine learning models using Cosign
+- :material-flask: [Lab 6.1 — Editing models using the ROME technique](../chapter-06/lab-01-rome.md)
+- :material-flask: [Lab 6.2 — How trojanized models work](../chapter-06/lab-02-trojanized-models.md)
+- :material-flask: [Lab 6.3 — Scanning models and detecting malicious code](../chapter-06/lab-03-scanning.md)
+- :material-flask: [Lab 6.4 — Generating an SBOM (and extending it to an MLBOM)](../chapter-06/lab-04-sbom.md)
+- :material-flask: [Lab 6.5 — Signing and verifying machine learning models](../chapter-06/lab-05-signing.md)
 
 **Estimated time:** 8–10 hours
 
@@ -405,15 +405,15 @@ default order is recommended.
 - ISO/IEC 42001
 - Other standards and guidelines
 
-**AI acts, bills, and legislations**
+**AI acts, bills, and legislation**
 
 - EU AI Act
-- US legislations
+- US legislation
 
 **Hands-on exercises**
 
-- :material-flask: Working with AI agents
-- :material-flask: Abusing AI agents
+- :material-flask: [Lab 7.1 — Working with AI agents](../chapter-07/lab-01-agents.md)
+- :material-flask: [Lab 7.2 — Assessing and abusing AI agents](../chapter-07/lab-02-abusing-agents.md)
 
 **Estimated time:** 6–8 hours
 
@@ -433,18 +433,15 @@ an ML or security background already, expect closer to 35–40 hours.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../certification/" markdown>
-<span class="caisp-kicker">Next</span>
-### Certification Guide
-Exam format and how to prepare.
+<div class="caisp-cards">
+<a class="caisp-card" href="certification.md">
+  <span class="caisp-kicker">Next</span>
+  <span class="caisp-card-title">Certification Guide</span>
+  <span class="caisp-card-text">Exam format and how to prepare.</span>
 </a>
-
-<a class="caisp-card" href="../lab-environment/" markdown>
-<span class="caisp-kicker">Then</span>
-### Lab Environment Setup
-Get your machine ready.
+<a class="caisp-card" href="lab-environment.md">
+  <span class="caisp-kicker">Then</span>
+  <span class="caisp-card-title">Lab Environment Setup</span>
+  <span class="caisp-card-text">Get your machine ready.</span>
 </a>
-
 </div>

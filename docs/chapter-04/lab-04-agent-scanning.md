@@ -220,12 +220,10 @@ The deliverable. This is what you hand to an engineering team:
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-05-llm-guard/" markdown>
-<span class="caisp-kicker">Next · Lab 4.5</span>
-### Sanitizing Prompts with LLM Guard
-Real guardrail tooling on the input side.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-05-llm-guard.md">
+  <span class="caisp-kicker">Next · Lab 4.5</span>
+  <span class="caisp-card-title">Sanitizing Prompts with LLM Guard</span>
+  <span class="caisp-card-text">Real guardrail tooling on the input side.</span>
 </a>
-
 </div>

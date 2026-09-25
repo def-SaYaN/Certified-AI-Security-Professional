@@ -205,12 +205,10 @@ field.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../03-real-world-cases/" markdown>
-<span class="caisp-kicker">Next · 4.3</span>
-### Real-World Cases
-Three incidents, three different lessons.
+<div class="caisp-cards">
+<a class="caisp-card" href="03-real-world-cases.md">
+  <span class="caisp-kicker">Next · 4.3</span>
+  <span class="caisp-card-title">Real-World Cases</span>
+  <span class="caisp-card-text">Three incidents, three different lessons.</span>
 </a>
-
 </div>

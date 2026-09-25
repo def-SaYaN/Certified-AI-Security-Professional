@@ -296,12 +296,10 @@ defences.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../05-intro-to-ml/" markdown>
-<span class="caisp-kicker">Next · 1.5</span>
-### Introduction to Machine Learning
-The ML workflow end to end, and the concepts you will use constantly.
+<div class="caisp-cards">
+<a class="caisp-card" href="05-intro-to-ml.md">
+  <span class="caisp-kicker">Next · 1.5</span>
+  <span class="caisp-card-title">Introduction to Machine Learning</span>
+  <span class="caisp-card-text">The ML workflow end to end, and the concepts you will use constantly.</span>
 </a>
-
 </div>

@@ -210,12 +210,10 @@ defence — **provenance**. That is the argument for sections 6.4 and 6.5.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../03-vetting/" markdown>
-<span class="caisp-kicker">Next · 6.3</span>
-### Vetting Software Frameworks
-Building a repeatable process for deciding what to trust.
+<div class="caisp-cards">
+<a class="caisp-card" href="03-vetting.md">
+  <span class="caisp-kicker">Next · 6.3</span>
+  <span class="caisp-card-title">Vetting Software Frameworks</span>
+  <span class="caisp-card-text">Building a repeatable process for deciding what to trust.</span>
 </a>
-
 </div>

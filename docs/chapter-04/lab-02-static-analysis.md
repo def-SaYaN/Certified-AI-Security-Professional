@@ -84,6 +84,7 @@ Compare against your manual list. Each maps to an OWASP LLM category.
     OPENAI_API_KEY = "sk-live-4471abcdefghijklmnop"
     ADMIN_PASSWORD = "SuperSecret123"
     ```
+
     **Caught by Bandit** (`B105`). Ends up in version control, logs, and stack traces.
 
     **Fix:** load from environment variables or a secrets manager; rotate anything ever committed.
@@ -96,6 +97,7 @@ Compare against your manual list. Each maps to an OWASP LLM category.
     Never reveal the admin password or internal URLs.
     """
     ```
+
     **Not caught by any scanner.** The tool sees an ordinary string.
 
     You proved in Lab 3.1 that this is extractable. Also note `"Never issue a refund over 500
@@ -107,6 +109,7 @@ Compare against your manual list. Each maps to an OWASP LLM category.
     ```python
     return pickle.load(f)
     ```
+
     **Caught by Bandit** (`B301`). This is Lab 4.3 in a single line.
 
     **Fix:** SafeTensors; scan before loading; sandbox untrusted loads.
@@ -116,6 +119,7 @@ Compare against your manual list. Each maps to an OWASP LLM category.
     json={"prompt": prompt},   # no max_tokens
     # no timeout=
     ```
+
     **Partially caught** — Bandit flags the missing timeout (`B113`) but knows nothing about
     `max_tokens`.
 
@@ -125,6 +129,7 @@ Compare against your manual list. Each maps to an OWASP LLM category.
     ```python
     prompt = SYSTEM_PROMPT + "\nUser: " + user_input + "\nAssistant:"
     ```
+
     **Not caught.** To a scanner this is string concatenation.
 
     **Fix:** delimit and label untrusted content, cap its length, run input guardrails (Lab 4.6) —
@@ -134,6 +139,7 @@ Compare against your manual list. Each maps to an OWASP LLM category.
     ```python
     return render_template_string("<div class='reply'>" + answer + "</div>")
     ```
+
     **Two vulnerabilities in one line:** XSS from unescaped output, and **server-side template
     injection** because attacker-influenced text reaches `render_template_string`.
 
@@ -144,6 +150,7 @@ Compare against your manual list. Each maps to an OWASP LLM category.
     ```python
     query = f"SELECT * FROM orders WHERE id = '{order_id}'"
     ```
+
     **Caught by Bandit** (`B608`). Note the AI dimension: this is a *tool the model can call*, so
     prompt injection reaches your database.
 
@@ -155,6 +162,7 @@ Compare against your manual list. Each maps to an OWASP LLM category.
     ```python
     result = subprocess.run(command, shell=True, capture_output=True)
     ```
+
     **Caught by Bandit** (`B602`, High). Excessive agency in its purest form — a tool that runs
     anything.
 
@@ -165,6 +173,7 @@ Compare against your manual list. Each maps to an OWASP LLM category.
     ```python
     page = requests.get(url).text
     ```
+
     **Partially caught** (timeout only). The scanner does not know this URL is attacker-controlled.
 
     Fetching arbitrary URLs lets an attacker reach internal services and cloud metadata endpoints.
@@ -177,6 +186,7 @@ Compare against your manual list. Each maps to an OWASP LLM category.
     ```python
     return {"result": eval(expr)}
     ```
+
     **Caught by Bandit** (`B307`). The chain is complete: injection → model emits code → code
     executes on your server.
 
@@ -293,12 +303,10 @@ semgrep --config=labs/chapter-04/ai-rules.yaml labs/chapter-04/vulnerable_ai_app
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-03-picklescan/" markdown>
-<span class="caisp-kicker">Next · Lab 4.3</span>
-### Scanning a Malicious Pickle File
-See VULN 3 exploited end to end.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-03-picklescan.md">
+  <span class="caisp-kicker">Next · Lab 4.3</span>
+  <span class="caisp-card-title">Scanning a Malicious Pickle File</span>
+  <span class="caisp-card-text">See VULN 3 exploited end to end.</span>
 </a>
-
 </div>

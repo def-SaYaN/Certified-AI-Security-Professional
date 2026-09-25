@@ -80,7 +80,7 @@ you from zero to competent practitioner, not from competent practitioner to rese
 
 Everything is free and open source:
 
-- **Python 3.10 or newer** — the language every lab is written in.
+- **Python 3.11 or 3.12** (3.10 also works) — the language every lab is written in.
 - **A terminal** — Terminal on macOS/Linux, PowerShell or Windows Terminal on Windows.
 - **A text editor** — VS Code is recommended (free), but any editor works.
 - **Git** — used to fetch a couple of tools in later chapters.
@@ -216,8 +216,7 @@ Throughout the course you will see these visual signals.
 
 ### Code blocks
 
-Commands you type into a terminal look like this, and the `$` is the prompt — do not type
-it:
+Commands you type into a terminal look like this. Type (or copy) exactly what is shown:
 
 ```bash
 python --version
@@ -273,18 +272,15 @@ skill without ever touching a system you do not own.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../syllabus/" markdown>
-<span class="caisp-kicker">Next</span>
-### Syllabus & Roadmap
-See the full topic list for all seven chapters.
+<div class="caisp-cards">
+<a class="caisp-card" href="syllabus.md">
+  <span class="caisp-kicker">Next</span>
+  <span class="caisp-card-title">Syllabus &amp; Roadmap</span>
+  <span class="caisp-card-text">See the full topic list for all seven chapters.</span>
 </a>
-
-<a class="caisp-card" href="../lab-environment/" markdown>
-<span class="caisp-kicker">Or jump to</span>
-### Lab Environment Setup
-Get your machine ready. Takes about 20 minutes.
+<a class="caisp-card" href="lab-environment.md">
+  <span class="caisp-kicker">Or jump to</span>
+  <span class="caisp-card-title">Lab Environment Setup</span>
+  <span class="caisp-card-text">Get your machine ready. Takes about 20 minutes.</span>
 </a>
-
 </div>

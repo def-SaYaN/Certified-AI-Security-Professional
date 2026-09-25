@@ -247,12 +247,10 @@ For each, identify the flaw and the fix:
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-04-hallucination/" markdown>
-<span class="caisp-kicker">Next · Lab 3.4</span>
-### LLM Hallucination Lab
-Measure fabrication instead of assuming it.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-04-hallucination.md">
+  <span class="caisp-kicker">Next · Lab 3.4</span>
+  <span class="caisp-card-title">LLM Hallucination Lab</span>
+  <span class="caisp-card-text">Measure fabrication instead of assuming it.</span>
 </a>
-
 </div>

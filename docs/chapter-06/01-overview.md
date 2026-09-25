@@ -177,12 +177,10 @@ because it fights the asymmetry head-on and loses.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../02-ai-supply-chain-attacks/" markdown>
-<span class="caisp-kicker">Next · 6.2</span>
-### AI Supply Chain Attacks
-Data, model, and infrastructure attacks — and package masquerading.
+<div class="caisp-cards">
+<a class="caisp-card" href="02-ai-supply-chain-attacks.md">
+  <span class="caisp-kicker">Next · 6.2</span>
+  <span class="caisp-card-title">AI Supply Chain Attacks</span>
+  <span class="caisp-card-text">Data, model, and infrastructure attacks — and package masquerading.</span>
 </a>
-
 </div>

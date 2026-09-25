@@ -171,12 +171,10 @@ permitted domains — this closes the image-exfiltration trick.</dd>
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../03-training-data-poisoning/" markdown>
-<span class="caisp-kicker">Next · LLM03</span>
-### Training Data Poisoning
-Attacking the model before it is ever deployed.
+<div class="caisp-cards">
+<a class="caisp-card" href="03-training-data-poisoning.md">
+  <span class="caisp-kicker">Next · LLM03</span>
+  <span class="caisp-card-title">Training Data Poisoning</span>
+  <span class="caisp-card-text">Attacking the model before it is ever deployed.</span>
 </a>
-
 </div>

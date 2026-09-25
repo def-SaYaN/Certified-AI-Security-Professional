@@ -102,7 +102,7 @@ risks, training risks, and inference risks in a way that applies to classical ML
 
 **Weakness:** more academic in register; less immediately actionable than OWASP.
 
-**Use it:** when modelling **non-LLM ML systems**, or when you want deeper architectural coverage
+**Use it:** when modeling **non-LLM ML systems**, or when you want deeper architectural coverage
 than OWASP's application-level focus.
 
 ---
@@ -195,19 +195,17 @@ register the exam and professional reports reward.
         how an adversary moves through a system tactic by tactic, which is what you need for attack
         narratives and detection-coverage assessment.
 
-    ??? success "You are modelling an image classification pipeline, not an LLM. Which libraries?"
+    ??? success "You are modeling an image classification pipeline, not an LLM. Which libraries?"
         STRIDE for structure, plus BIML (which covers ML architecture generally rather than LLM
         applications specifically), plus ATLAS. The OWASP LLM Top 10 is largely inapplicable — it is
         scoped to LLM applications.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../06-rating-risks/" markdown>
-<span class="caisp-kicker">Next · 5.6</span>
-### Rating & Managing Risks
-Turning a long threat list into a short, defensible action plan.
+<div class="caisp-cards">
+<a class="caisp-card" href="06-rating-risks.md">
+  <span class="caisp-kicker">Next · 5.6</span>
+  <span class="caisp-card-title">Rating &amp; Managing Risks</span>
+  <span class="caisp-card-text">Turning a long threat list into a short, defensible action plan.</span>
 </a>
-
 </div>

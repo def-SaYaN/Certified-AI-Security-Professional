@@ -260,12 +260,10 @@ add new input channels — including instructions hidden inside images (section 
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../03-training-and-augmenting/" markdown>
-<span class="caisp-kicker">Next · 2.3</span>
-### Training & Augmenting LLMs
-Foundational vs. fine-tuned models, and how RAG fits in.
+<div class="caisp-cards">
+<a class="caisp-card" href="03-training-and-augmenting.md">
+  <span class="caisp-kicker">Next · 2.3</span>
+  <span class="caisp-card-title">Training &amp; Augmenting LLMs</span>
+  <span class="caisp-card-text">Foundational vs. fine-tuned models, and how RAG fits in.</span>
 </a>
-
 </div>

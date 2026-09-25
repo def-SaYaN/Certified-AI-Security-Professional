@@ -175,18 +175,15 @@ including **tool output**, an instruction-following model, real privilege, and a
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../" markdown>
-<span class="caisp-kicker">Back</span>
-### Chapter 7 Contents
-Revisit any section or lab.
+<div class="caisp-cards">
+<a class="caisp-card" href="index.md">
+  <span class="caisp-kicker">Back</span>
+  <span class="caisp-card-title">Chapter 7 Contents</span>
+  <span class="caisp-card-text">Revisit any section or lab.</span>
 </a>
-
-<a class="caisp-card" href="../../wrap-up/" markdown>
-<span class="caisp-kicker">Finish</span>
-### Course Wrap-Up
-You have completed all seven chapters. Here is what to do next.
+<a class="caisp-card" href="../wrap-up/index.md">
+  <span class="caisp-kicker">Finish</span>
+  <span class="caisp-card-title">Course Wrap-Up</span>
+  <span class="caisp-card-text">You have completed all seven chapters. Here is what to do next.</span>
 </a>
-
 </div>

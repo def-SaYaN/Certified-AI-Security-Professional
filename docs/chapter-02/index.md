@@ -60,110 +60,92 @@ The concept sections build your mental model. The labs make it real. Do them int
 
 ## Sections
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../01-intro-to-llms/" markdown>
-<span class="caisp-kicker">2.1</span>
-### Introduction to LLMs
-What an LLM is, how the transformer works, and why attention changed everything.
+<div class="caisp-cards">
+<a class="caisp-card" href="01-intro-to-llms.md">
+  <span class="caisp-kicker">2.1</span>
+  <span class="caisp-card-title">Introduction to LLMs</span>
+  <span class="caisp-card-text">What an LLM is, how the transformer works, and why attention changed everything.</span>
 </a>
-
-<a class="caisp-card" href="../02-gpt-and-bert/" markdown>
-<span class="caisp-kicker">2.2</span>
-### Understanding LLMs — GPT & BERT
-Two families, two philosophies: generation vs. understanding.
+<a class="caisp-card" href="02-gpt-and-bert.md">
+  <span class="caisp-kicker">2.2</span>
+  <span class="caisp-card-title">Understanding LLMs — GPT &amp; BERT</span>
+  <span class="caisp-card-text">Two families, two philosophies: generation vs. understanding.</span>
 </a>
-
-<a class="caisp-card" href="../03-training-and-augmenting/" markdown>
-<span class="caisp-kicker">2.3</span>
-### Training & Augmenting LLMs
-Foundational vs. fine-tuned models, and RAG as augmentation.
+<a class="caisp-card" href="03-training-and-augmenting.md">
+  <span class="caisp-kicker">2.3</span>
+  <span class="caisp-card-title">Training &amp; Augmenting LLMs</span>
+  <span class="caisp-card-text">Foundational vs. fine-tuned models, and RAG as augmentation.</span>
 </a>
-
-<a class="caisp-card" href="../04-use-cases/" markdown>
-<span class="caisp-kicker">2.4</span>
-### Use Cases of LLMs
-Generation, understanding, and conversational AI — with the risks of each.
+<a class="caisp-card" href="04-use-cases.md">
+  <span class="caisp-kicker">2.4</span>
+  <span class="caisp-card-title">Use Cases of LLMs</span>
+  <span class="caisp-card-text">Generation, understanding, and conversational AI — with the risks of each.</span>
 </a>
-
-<a class="caisp-card" href="../05-attack-tactics-atlas/" markdown>
-<span class="caisp-kicker">2.5</span>
-### Attack Tactics — ATT&CK & ATLAS
-The attacker's playbook, walked tactic by tactic.
+<a class="caisp-card" href="05-attack-tactics-atlas.md">
+  <span class="caisp-kicker">2.5</span>
+  <span class="caisp-card-title">Attack Tactics — ATT&amp;CK &amp; ATLAS</span>
+  <span class="caisp-card-text">The attacker's playbook, walked tactic by tactic.</span>
 </a>
-
-<a class="caisp-card" href="../06-malicious-llm-tools/" markdown>
-<span class="caisp-kicker">2.6</span>
-### Real-World Malicious LLM Tools
-WormGPT, FraudGPT, and what the criminal market tells defenders.
+<a class="caisp-card" href="06-malicious-llm-tools.md">
+  <span class="caisp-kicker">2.6</span>
+  <span class="caisp-card-title">Real-World Malicious LLM Tools</span>
+  <span class="caisp-card-text">WormGPT, FraudGPT, and what the criminal market tells defenders.</span>
 </a>
-
 </div>
 
 ## Labs
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-01-simple-chatbot/" markdown>
-<span class="caisp-kicker">Lab 2.1 · Build</span>
-### A Simple Chatbot
-A clean, minimal chatbot to anchor the chapter.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-01-simple-chatbot.md">
+  <span class="caisp-kicker">Lab 2.1 · Build</span>
+  <span class="caisp-card-title">A Simple Chatbot</span>
+  <span class="caisp-card-text">A clean, minimal chatbot to anchor the chapter.</span>
 </a>
-
-<a class="caisp-card" href="../lab-02-tokenizers/" markdown>
-<span class="caisp-kicker">Lab 2.2 · Build</span>
-### How Tokenizers Work
-See the world the way a model does — in tokens.
+<a class="caisp-card" href="lab-02-tokenizers.md">
+  <span class="caisp-kicker">Lab 2.2 · Build</span>
+  <span class="caisp-card-title">How Tokenizers Work</span>
+  <span class="caisp-card-text">See the world the way a model does — in tokens.</span>
 </a>
-
-<a class="caisp-card" href="../lab-03-summarizer/" markdown>
-<span class="caisp-kicker">Lab 2.3 · Build</span>
-### Build a Summarizer
-Condense text with an LLM, and probe where it fails.
+<a class="caisp-card" href="lab-03-summarizer.md">
+  <span class="caisp-kicker">Lab 2.3 · Build</span>
+  <span class="caisp-card-title">Build a Summarizer</span>
+  <span class="caisp-card-text">Condense text with an LLM, and probe where it fails.</span>
 </a>
-
-<a class="caisp-card" href="../lab-04-fine-tuning/" markdown>
-<span class="caisp-kicker">Lab 2.4 · Build</span>
-### Fine-tune a Model
-Specialise a model on your own data — and inherit its risks.
+<a class="caisp-card" href="lab-04-fine-tuning.md">
+  <span class="caisp-kicker">Lab 2.4 · Build</span>
+  <span class="caisp-card-title">Fine-tune a Model</span>
+  <span class="caisp-card-text">Specialise a model on your own data — and inherit its risks.</span>
 </a>
-
-<a class="caisp-card" href="../lab-05-scraper/" markdown>
-<span class="caisp-kicker">Lab 2.5 · Build</span>
-### A Website Scraper
-Feed the web to an LLM — and meet indirect injection.
+<a class="caisp-card" href="lab-05-scraper.md">
+  <span class="caisp-kicker">Lab 2.5 · Build</span>
+  <span class="caisp-card-title">A Website Scraper</span>
+  <span class="caisp-card-text">Feed the web to an LLM — and meet indirect injection.</span>
 </a>
-
-<a class="caisp-card" href="../lab-06-rag/" markdown>
-<span class="caisp-kicker">Lab 2.6 · Build</span>
-### Build a RAG System
-The most important architecture in enterprise AI.
+<a class="caisp-card" href="lab-06-rag.md">
+  <span class="caisp-kicker">Lab 2.6 · Build</span>
+  <span class="caisp-card-title">Build a RAG System</span>
+  <span class="caisp-card-text">The most important architecture in enterprise AI.</span>
 </a>
-
-<a class="caisp-card" href="../lab-07-textattack/" markdown>
-<span class="caisp-kicker">Lab 2.7 · Attack</span>
-### Attacking with TextAttack
-Adversarial examples against a real classifier.
+<a class="caisp-card" href="lab-07-textattack.md">
+  <span class="caisp-kicker">Lab 2.7 · Attack</span>
+  <span class="caisp-card-title">Attacking with TextAttack</span>
+  <span class="caisp-card-text">Adversarial examples against a real classifier.</span>
 </a>
-
-<a class="caisp-card" href="../lab-08-sentiment/" markdown>
-<span class="caisp-kicker">Lab 2.8 · Build</span>
-### Sentiment Analysis
-Classification, confidence, and why confidence lies.
+<a class="caisp-card" href="lab-08-sentiment.md">
+  <span class="caisp-kicker">Lab 2.8 · Build</span>
+  <span class="caisp-card-title">Sentiment Analysis</span>
+  <span class="caisp-card-text">Classification, confidence, and why confidence lies.</span>
 </a>
-
-<a class="caisp-card" href="../lab-09-backdoors/" markdown>
-<span class="caisp-kicker">Lab 2.9 · Defend</span>
-### Backdoor Attacks (Defensive)
-How backdoors work, and how to detect them.
+<a class="caisp-card" href="lab-09-backdoors.md">
+  <span class="caisp-kicker">Lab 2.9 · Defend</span>
+  <span class="caisp-card-title">Backdoor Attacks (Defensive)</span>
+  <span class="caisp-card-text">How backdoors work, and how to detect them.</span>
 </a>
-
-<a class="caisp-card" href="../lab-10-speech-to-text/" markdown>
-<span class="caisp-kicker">Lab 2.10 · Build</span>
-### Speech-to-Text
-Multimodal input, and the attack surface it opens.
+<a class="caisp-card" href="lab-10-speech-to-text.md">
+  <span class="caisp-kicker">Lab 2.10 · Build</span>
+  <span class="caisp-card-title">Speech-to-Text</span>
+  <span class="caisp-card-text">Multimodal input, and the attack surface it opens.</span>
 </a>
-
 </div>
 
 ---

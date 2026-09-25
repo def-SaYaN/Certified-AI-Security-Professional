@@ -301,12 +301,10 @@ The secret is absent **and** the model has no capability that could reach it. Un
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-02-system-user-prompts/" markdown>
-<span class="caisp-kicker">Next · Lab 3.2</span>
-### System vs User Prompts
-Why the boundary between them is a fiction.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-02-system-user-prompts.md">
+  <span class="caisp-kicker">Next · Lab 3.2</span>
+  <span class="caisp-card-title">System vs User Prompts</span>
+  <span class="caisp-card-text">Why the boundary between them is a fiction.</span>
 </a>
-
 </div>

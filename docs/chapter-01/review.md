@@ -232,19 +232,15 @@ Not required, but genuinely worthwhile if this chapter sparked your interest.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../../chapter-01/" markdown>
-<span class="caisp-kicker">Back</span>
-### Chapter 1 Contents
-Revisit any section.
+<div class="caisp-cards">
+<a class="caisp-card" href="index.md">
+  <span class="caisp-kicker">Back</span>
+  <span class="caisp-card-title">Chapter 1 Contents</span>
+  <span class="caisp-card-text">Revisit any section.</span>
 </a>
-
-<div class="caisp-card" markdown>
-<span class="caisp-kicker">Coming next</span>
-### Chapter 2 — Understanding and Attacking LLMs
-Transformers, GPT vs BERT, fine-tuning, the full MITRE ATLAS matrix, and ten hands-on labs.
-*Paste Chapter 2 when you're ready and I'll build it.*
-</div>
-
+<a class="caisp-card" href="../chapter-02/index.md">
+  <span class="caisp-kicker">Next chapter</span>
+  <span class="caisp-card-title">Chapter 2 — Understanding and Attacking LLMs</span>
+  <span class="caisp-card-text">Transformers, GPT vs BERT, fine-tuning, the full MITRE ATLAS matrix, and ten hands-on labs.</span>
+</a>
 </div>

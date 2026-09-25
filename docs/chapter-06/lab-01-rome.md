@@ -253,12 +253,10 @@ edited since signing (Lab 6.5). One flipped bit breaks the hash.</dd>
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-02-trojanized-models/" markdown>
-<span class="caisp-kicker">Next · Lab 6.2</span>
-### How Trojanized Models Work
-The anatomy of a trojanized model, and the economics of detection.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-02-trojanized-models.md">
+  <span class="caisp-kicker">Next · Lab 6.2</span>
+  <span class="caisp-card-title">How Trojanized Models Work</span>
+  <span class="caisp-card-text">The anatomy of a trojanized model, and the economics of detection.</span>
 </a>
-
 </div>

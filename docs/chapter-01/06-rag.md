@@ -248,12 +248,10 @@ page renders. A clever combination of insecure output handling and retrieval acc
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../07-deep-learning/" markdown>
-<span class="caisp-kicker">Next · 1.7</span>
-### Basics of Deep Learning
-Neural networks and CNNs — the machinery underneath all of this.
+<div class="caisp-cards">
+<a class="caisp-card" href="07-deep-learning.md">
+  <span class="caisp-kicker">Next · 1.7</span>
+  <span class="caisp-card-title">Basics of Deep Learning</span>
+  <span class="caisp-card-text">Neural networks and CNNs — the machinery underneath all of this.</span>
 </a>
-
 </div>

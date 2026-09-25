@@ -147,6 +147,7 @@ that these tools produce findings requiring judgement, not simple pass/fail.
     ```bash
     picklescan --path labs/chapter-04/_samples/malicious_model.pkl
     ```
+
     This is the command you would wire into CI.
 
 ---
@@ -250,12 +251,10 @@ survivable.</dd>
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-04-agent-scanning/" markdown>
-<span class="caisp-kicker">Next · Lab 4.4</span>
-### Scanning for Agent Vulnerabilities
-Assess an agentic system's tools and permissions systematically.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-04-agent-scanning.md">
+  <span class="caisp-kicker">Next · Lab 4.4</span>
+  <span class="caisp-card-title">Scanning for Agent Vulnerabilities</span>
+  <span class="caisp-card-text">Assess an agentic system's tools and permissions systematically.</span>
 </a>
-
 </div>

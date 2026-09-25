@@ -216,12 +216,10 @@ actions, a successful tamper produces a wrong answer rather than an incident.</d
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-03-scanning/" markdown>
-<span class="caisp-kicker">Next · Lab 6.3</span>
-### Scanning Models for Malicious Code
-Build the scanner — and see exactly where it stops helping.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-03-scanning.md">
+  <span class="caisp-kicker">Next · Lab 6.3</span>
+  <span class="caisp-card-title">Scanning Models for Malicious Code</span>
+  <span class="caisp-card-text">Build the scanner — and see exactly where it stops helping.</span>
 </a>
-
 </div>

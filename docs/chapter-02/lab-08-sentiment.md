@@ -131,12 +131,10 @@ important realisation now:
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-09-backdoors/" markdown>
-<span class="caisp-kicker">Next · Lab 2.9</span>
-### Backdoor Attacks (Defensive)
-A classifier that passes every test while hiding a trigger.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-09-backdoors.md">
+  <span class="caisp-kicker">Next · Lab 2.9</span>
+  <span class="caisp-card-title">Backdoor Attacks (Defensive)</span>
+  <span class="caisp-card-text">A classifier that passes every test while hiding a trigger.</span>
 </a>
-
 </div>

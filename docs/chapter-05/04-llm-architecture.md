@@ -251,12 +251,10 @@ The threat model's output is not the table — it is the **decisions**. For this
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../05-threat-libraries/" markdown>
-<span class="caisp-kicker">Next · 5.5</span>
-### AI Threat Libraries
-Where to source threats so you are not relying on your own imagination.
+<div class="caisp-cards">
+<a class="caisp-card" href="05-threat-libraries.md">
+  <span class="caisp-kicker">Next · 5.5</span>
+  <span class="caisp-card-title">AI Threat Libraries</span>
+  <span class="caisp-card-text">Where to source threats so you are not relying on your own imagination.</span>
 </a>
-
 </div>

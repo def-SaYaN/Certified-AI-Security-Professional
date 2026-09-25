@@ -219,12 +219,10 @@ flowchart TD
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../05-attack-tactics-atlas/" markdown>
-<span class="caisp-kicker">Next · 2.5</span>
-### Attack Tactics — ATT&CK & ATLAS
-The attacker's playbook for AI systems, walked tactic by tactic.
+<div class="caisp-cards">
+<a class="caisp-card" href="05-attack-tactics-atlas.md">
+  <span class="caisp-kicker">Next · 2.5</span>
+  <span class="caisp-card-title">Attack Tactics — ATT&amp;CK &amp; ATLAS</span>
+  <span class="caisp-card-text">The attacker's playbook for AI systems, walked tactic by tactic.</span>
 </a>
-
 </div>

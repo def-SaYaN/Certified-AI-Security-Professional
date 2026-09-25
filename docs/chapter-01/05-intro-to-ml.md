@@ -305,13 +305,10 @@ scratch.** Practically everyone builds on a foundation model.
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../06-rag/" markdown>
-<span class="caisp-kicker">Next · 1.6</span>
-### Retrieval Augmented Generation
-How models are given knowledge they were never trained on — and the attack surface that
-creates.
+<div class="caisp-cards">
+<a class="caisp-card" href="06-rag.md">
+  <span class="caisp-kicker">Next · 1.6</span>
+  <span class="caisp-card-title">Retrieval Augmented Generation</span>
+  <span class="caisp-card-text">How models are given knowledge they were never trained on — and the attack surface that creates.</span>
 </a>
-
 </div>

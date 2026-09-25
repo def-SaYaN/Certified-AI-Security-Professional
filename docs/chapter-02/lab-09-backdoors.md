@@ -262,12 +262,10 @@ attacks.</dd>
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-10-speech-to-text/" markdown>
-<span class="caisp-kicker">Next · Lab 2.10</span>
-### Speech-to-Text
-Multimodal input and the attack surface it opens.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-10-speech-to-text.md">
+  <span class="caisp-kicker">Next · Lab 2.10</span>
+  <span class="caisp-card-title">Speech-to-Text</span>
+  <span class="caisp-card-text">Multimodal input and the attack surface it opens.</span>
 </a>
-
 </div>

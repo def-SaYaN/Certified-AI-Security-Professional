@@ -147,12 +147,14 @@ forensic record.</dd>
     ```text
     System prompt: "Never issue a refund over £100."
     ```
+
     This is a **request** to a probabilistic system that an attacker can influence.
 
     ```python
     if refund_amount > 100:
         require_human_approval()
     ```
+
     This is a **control**. It holds regardless of what the model was persuaded to attempt.
 
     Whenever you see a business rule living only in a system prompt, that is a finding.
@@ -188,12 +190,10 @@ agent is a capability an attacker may borrow.**
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../09-overreliance/" markdown>
-<span class="caisp-kicker">Next · LLM09</span>
-### Overreliance
-Hallucination, and the humans who believe it.
+<div class="caisp-cards">
+<a class="caisp-card" href="09-overreliance.md">
+  <span class="caisp-kicker">Next · LLM09</span>
+  <span class="caisp-card-title">Overreliance</span>
+  <span class="caisp-card-text">Hallucination, and the humans who believe it.</span>
 </a>
-
 </div>

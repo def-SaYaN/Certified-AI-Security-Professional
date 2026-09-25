@@ -98,11 +98,13 @@ python check_affected.py log4j
 ### Other real uses
 
 - **Diff between releases.** A new dependency appearing that nobody added is a strong signal.
+
   ```bash
   cyclonedx-py environment -o sbom-new.json
   diff <(jq -r '.components[].purl' sbom.json | sort) \
        <(jq -r '.components[].purl' sbom-new.json | sort)
   ```
+
 - **Licence compliance.** Flag licences incompatible with your use.
 - **Gate the build.** Fail CI if a disallowed component appears.
 
@@ -176,7 +178,7 @@ The fields that matter:
 ```
 
 !!! tip "The fields that earn their place"
-    <dl class="caisp-terms" markdown>
+    <dl class="caisp-terms">
 
     <dt><code>revision</code> / <code>sha256</code></dt>
     <dd>Pin to an exact artefact, not a moving tag. A hub reference without a revision is the AI
@@ -191,7 +193,7 @@ The fields that matter:
     enforceable.</dd>
 
     <dt><code>license</code></dt>
-    <dd>Model *and* dataset licences. Some models restrict commercial use or downstream training —
+    <dd>Model <em>and</em> dataset licences. Some models restrict commercial use or downstream training —
     a real legal exposure that no SCA tool will flag.</dd>
 
     <dt><code>out_of_scope</code></dt>
@@ -245,12 +247,10 @@ The fields that matter:
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-05-signing/" markdown>
-<span class="caisp-kicker">Next · Lab 6.5</span>
-### Signing & Verifying Models
-Now that you know what you have, prove it has not been tampered with.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-05-signing.md">
+  <span class="caisp-kicker">Next · Lab 6.5</span>
+  <span class="caisp-card-title">Signing &amp; Verifying Models</span>
+  <span class="caisp-card-text">Now that you know what you have, prove it has not been tampered with.</span>
 </a>
-
 </div>

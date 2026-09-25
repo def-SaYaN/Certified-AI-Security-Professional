@@ -46,6 +46,10 @@ exploited, and — equally weighted — how it is mitigated.
 | **LLM09** | [Overreliance](09-overreliance.md) | Humans trust model output too much |
 | **LLM10** | [Model Theft](10-model-theft.md) | The model itself is stolen or cloned |
 
+!!! info "Edition note"
+    Numbering follows the **v1.1 (2023)** edition used by the course syllabus. See
+    [section 3.0](00-owasp-intro.md) for a mapping to the renumbered **2025** edition.
+
 ---
 
 ## How the ten relate to each other
@@ -126,104 +130,87 @@ governance and provenance as much as code.</dd>
 
 ## Sections
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../00-owasp-intro/" markdown>
-<span class="caisp-kicker">3.0</span>
-### Introduction to the OWASP Top 10
-What OWASP is, how the list is built, and how to use it.
+<div class="caisp-cards">
+<a class="caisp-card" href="00-owasp-intro.md">
+  <span class="caisp-kicker">3.0</span>
+  <span class="caisp-card-title">Introduction to the OWASP Top 10</span>
+  <span class="caisp-card-text">What OWASP is, how the list is built, and how to use it.</span>
 </a>
-
-<a class="caisp-card" href="../01-prompt-injection/" markdown>
-<span class="caisp-kicker">LLM01</span>
-### Prompt Injection
-The big one. Direct, indirect, techniques, and honest mitigations.
+<a class="caisp-card" href="01-prompt-injection.md">
+  <span class="caisp-kicker">LLM01</span>
+  <span class="caisp-card-title">Prompt Injection</span>
+  <span class="caisp-card-text">The big one. Direct, indirect, techniques, and honest mitigations.</span>
 </a>
-
-<a class="caisp-card" href="../02-insecure-output-handling/" markdown>
-<span class="caisp-kicker">LLM02</span>
-### Insecure Output Handling
-When downstream systems trust what the model said.
+<a class="caisp-card" href="02-insecure-output-handling.md">
+  <span class="caisp-kicker">LLM02</span>
+  <span class="caisp-card-title">Insecure Output Handling</span>
+  <span class="caisp-card-text">When downstream systems trust what the model said.</span>
 </a>
-
-<a class="caisp-card" href="../03-training-data-poisoning/" markdown>
-<span class="caisp-kicker">LLM03</span>
-### Training Data Poisoning
-Corrupting what the model learns.
+<a class="caisp-card" href="03-training-data-poisoning.md">
+  <span class="caisp-kicker">LLM03</span>
+  <span class="caisp-card-title">Training Data Poisoning</span>
+  <span class="caisp-card-text">Corrupting what the model learns.</span>
 </a>
-
-<a class="caisp-card" href="../04-model-dos/" markdown>
-<span class="caisp-kicker">LLM04</span>
-### Model Denial of Service
-Context exhaustion and denial of wallet.
+<a class="caisp-card" href="04-model-dos.md">
+  <span class="caisp-kicker">LLM04</span>
+  <span class="caisp-card-title">Model Denial of Service</span>
+  <span class="caisp-card-text">Context exhaustion and denial of wallet.</span>
 </a>
-
-<a class="caisp-card" href="../05-supply-chain/" markdown>
-<span class="caisp-kicker">LLM05</span>
-### Supply Chain Vulnerabilities
-Models and datasets as untrusted dependencies.
+<a class="caisp-card" href="05-supply-chain.md">
+  <span class="caisp-kicker">LLM05</span>
+  <span class="caisp-card-title">Supply Chain Vulnerabilities</span>
+  <span class="caisp-card-text">Models and datasets as untrusted dependencies.</span>
 </a>
-
-<a class="caisp-card" href="../06-sensitive-info-disclosure/" markdown>
-<span class="caisp-kicker">LLM06</span>
-### Sensitive Information Disclosure
-Leaking prompts, training data, and other users' data.
+<a class="caisp-card" href="06-sensitive-info-disclosure.md">
+  <span class="caisp-kicker">LLM06</span>
+  <span class="caisp-card-title">Sensitive Information Disclosure</span>
+  <span class="caisp-card-text">Leaking prompts, training data, and other users' data.</span>
 </a>
-
-<a class="caisp-card" href="../07-insecure-plugin-design/" markdown>
-<span class="caisp-kicker">LLM07</span>
-### Insecure Plugin Design
-Tools that trust their caller.
+<a class="caisp-card" href="07-insecure-plugin-design.md">
+  <span class="caisp-kicker">LLM07</span>
+  <span class="caisp-card-title">Insecure Plugin Design</span>
+  <span class="caisp-card-text">Tools that trust their caller.</span>
 </a>
-
-<a class="caisp-card" href="../08-excessive-agency/" markdown>
-<span class="caisp-kicker">LLM08</span>
-### Excessive Agency
-The impact multiplier.
+<a class="caisp-card" href="08-excessive-agency.md">
+  <span class="caisp-kicker">LLM08</span>
+  <span class="caisp-card-title">Excessive Agency</span>
+  <span class="caisp-card-text">The impact multiplier.</span>
 </a>
-
-<a class="caisp-card" href="../09-overreliance/" markdown>
-<span class="caisp-kicker">LLM09</span>
-### Overreliance
-Hallucination and the humans who believe it.
+<a class="caisp-card" href="09-overreliance.md">
+  <span class="caisp-kicker">LLM09</span>
+  <span class="caisp-card-title">Overreliance</span>
+  <span class="caisp-card-text">Hallucination and the humans who believe it.</span>
 </a>
-
-<a class="caisp-card" href="../10-model-theft/" markdown>
-<span class="caisp-kicker">LLM10</span>
-### Model Theft
-Stealing or cloning the asset.
+<a class="caisp-card" href="10-model-theft.md">
+  <span class="caisp-kicker">LLM10</span>
+  <span class="caisp-card-title">Model Theft</span>
+  <span class="caisp-card-text">Stealing or cloning the asset.</span>
 </a>
-
 </div>
 
 ## Labs
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-01-prompt-injection/" markdown>
-<span class="caisp-kicker">Lab 3.1</span>
-### Prompt Injection Step by Step
-A progressive playground: eight levels of increasing defence.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-01-prompt-injection.md">
+  <span class="caisp-kicker">Lab 3.1</span>
+  <span class="caisp-card-title">Prompt Injection Step by Step</span>
+  <span class="caisp-card-text">A progressive playground: eight levels of increasing defence.</span>
 </a>
-
-<a class="caisp-card" href="../lab-02-system-user-prompts/" markdown>
-<span class="caisp-kicker">Lab 3.2</span>
-### System vs User Prompts
-Why the boundary is a fiction, demonstrated.
+<a class="caisp-card" href="lab-02-system-user-prompts.md">
+  <span class="caisp-kicker">Lab 3.2</span>
+  <span class="caisp-card-title">System vs User Prompts</span>
+  <span class="caisp-card-text">Why the boundary is a fiction, demonstrated.</span>
 </a>
-
-<a class="caisp-card" href="../lab-03-data-extraction/" markdown>
-<span class="caisp-kicker">Lab 3.3</span>
-### Extracting Sensitive Information
-Pull secrets out of a system you built.
+<a class="caisp-card" href="lab-03-data-extraction.md">
+  <span class="caisp-kicker">Lab 3.3</span>
+  <span class="caisp-card-title">Extracting Sensitive Information</span>
+  <span class="caisp-card-text">Pull secrets out of a system you built.</span>
 </a>
-
-<a class="caisp-card" href="../lab-04-hallucination/" markdown>
-<span class="caisp-kicker">Lab 3.4</span>
-### LLM Hallucination Lab
-Measure fabrication rates instead of guessing.
+<a class="caisp-card" href="lab-04-hallucination.md">
+  <span class="caisp-kicker">Lab 3.4</span>
+  <span class="caisp-card-title">LLM Hallucination Lab</span>
+  <span class="caisp-card-text">Measure fabrication rates instead of guessing.</span>
 </a>
-
 </div>
 
 ---

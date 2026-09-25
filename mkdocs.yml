@@ -1,6 +1,10 @@
 site_name: Certified AI Security Professional
 site_description: A beginner-friendly, hands-on course in AI and LLM security.
 site_author: cAISP Course Team
+site_url: https://def-sayan.github.io/Certified-AI-Security-Professional/
+repo_url: https://github.com/def-SaYaN/Certified-AI-Security-Professional
+repo_name: Certified-AI-Security-Professional
+copyright: Certified AI Security Professional (cAISP) — for educational use only.
 docs_dir: docs
 site_dir: site
 use_directory_urls: true
@@ -97,19 +101,21 @@ markdown_extensions:
   - pymdownx.tilde
 
 plugins:
+  # Set OFFLINE=true to build a copy you can open straight from disk (file://).
+  - offline:
+      enabled: !ENV [OFFLINE, false]
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - tags
+
+hooks:
+  - hooks/html_links.py
 
 extra_css:
   - assets/stylesheets/extra.css
 
 extra:
   generator: false
-  social:
-    - icon: material/school-outline
-      link: /
-      name: Course home
 
 nav:
   - Home: index.md
@@ -121,7 +127,7 @@ nav:
       - Lab Environment Setup: start-here/lab-environment.md
       - Course Support (Mattermost): start-here/support.md
       - Glossary: start-here/glossary.md
-  - Chapter 1 — Intro to AI Security:
+  - 1 · Foundations:
       - chapter-01/index.md
       - 1.1 An Overview of AI Security: chapter-01/01-overview-of-ai-security.md
       - 1.2 Basics of AI: chapter-01/02-basics-of-ai.md
@@ -132,7 +138,7 @@ nav:
       - 1.7 Basics of Deep Learning: chapter-01/07-deep-learning.md
       - "Lab 1.1 — Build a Chatbot with an LLM": chapter-01/lab-01-chatbot.md
       - Chapter 1 Review & Quiz: chapter-01/review.md
-  - Chapter 2 — Understanding & Attacking LLMs:
+  - 2 · Attacking LLMs:
       - chapter-02/index.md
       - 2.1 Introduction to LLMs: chapter-02/01-intro-to-llms.md
       - 2.2 Understanding LLMs — GPT & BERT: chapter-02/02-gpt-and-bert.md
@@ -151,7 +157,7 @@ nav:
       - "Lab 2.9 — Backdoor Attacks (Defensive)": chapter-02/lab-09-backdoors.md
       - "Lab 2.10 — Speech-to-Text": chapter-02/lab-10-speech-to-text.md
       - Chapter 2 Review & Quiz: chapter-02/review.md
-  - Chapter 3 — LLM Top 10 Vulnerabilities:
+  - 3 · OWASP LLM Top 10:
       - chapter-03/index.md
       - 3.0 Introduction to the OWASP Top 10: chapter-03/00-owasp-intro.md
       - "LLM01 — Prompt Injection": chapter-03/01-prompt-injection.md
@@ -169,7 +175,7 @@ nav:
       - "Lab 3.3 — Extracting Sensitive Information": chapter-03/lab-03-data-extraction.md
       - "Lab 3.4 — LLM Hallucination Lab": chapter-03/lab-04-hallucination.md
       - Chapter 3 Review & Quiz: chapter-03/review.md
-  - Chapter 4 — AI Attacks & Defenses Using DevOps:
+  - 4 · AI DevSecOps:
       - chapter-04/index.md
       - 4.1 Introduction to AI in DevOps: chapter-04/01-ai-in-devops.md
       - 4.2 The ML Pipeline & Its Attack Surface: chapter-04/02-ml-pipeline-attacks.md
@@ -182,7 +188,7 @@ nav:
       - "Lab 4.5 — Sanitizing Prompts with LLM Guard": chapter-04/lab-05-llm-guard.md
       - "Lab 4.6 — Guarding LLM Input and Output": chapter-04/lab-06-guardrails.md
       - Chapter 4 Review & Quiz: chapter-04/review.md
-  - Chapter 5 — Threat Modeling AI Systems:
+  - 5 · Threat Modeling:
       - chapter-05/index.md
       - 5.1 What Is Threat Modeling: chapter-05/01-what-is-threat-modeling.md
       - 5.2 The Threat Model Parlance: chapter-05/02-parlance.md
@@ -192,7 +198,7 @@ nav:
       - 5.6 Rating & Managing Risks: chapter-05/06-rating-risks.md
       - "Lab 5.1 — Threat Modeling an AI System": chapter-05/lab-01-threat-model.md
       - Chapter 5 Review & Quiz: chapter-05/review.md
-  - Chapter 6 — Supply Chain Attacks in AI:
+  - 6 · Supply Chain:
       - chapter-06/index.md
       - 6.1 Supply Chain Security Overview: chapter-06/01-overview.md
       - 6.2 AI Supply Chain Attacks: chapter-06/02-ai-supply-chain-attacks.md
@@ -205,7 +211,7 @@ nav:
       - "Lab 6.4 — Generating an SBOM": chapter-06/lab-04-sbom.md
       - "Lab 6.5 — Signing & Verifying Models": chapter-06/lab-05-signing.md
       - Chapter 6 Review & Quiz: chapter-06/review.md
-  - Chapter 7 — Emerging Threats, Governance & Compliance:
+  - 7 · Governance:
       - chapter-07/index.md
       - 7.1 Emerging Threats in AI: chapter-07/01-emerging-threats.md
       - 7.2 AI Governance & Standards: chapter-07/02-governance-standards.md
@@ -213,5 +219,5 @@ nav:
       - "Lab 7.1 — Working with AI Agents": chapter-07/lab-01-agents.md
       - "Lab 7.2 — Assessing & Abusing AI Agents": chapter-07/lab-02-abusing-agents.md
       - Chapter 7 Review & Quiz: chapter-07/review.md
-  - Course Wrap-Up:
+  - Wrap-Up:
       - wrap-up/index.md

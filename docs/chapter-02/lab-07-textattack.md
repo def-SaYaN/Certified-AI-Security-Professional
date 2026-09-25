@@ -218,12 +218,10 @@ Partial, realistic defences (none complete):
 
 ---
 
-<div class="caisp-cards" markdown>
-
-<a class="caisp-card" href="../lab-08-sentiment/" markdown>
-<span class="caisp-kicker">Next · Lab 2.8</span>
-### Sentiment Analysis
-Classification, confidence, and why confidence lies.
+<div class="caisp-cards">
+<a class="caisp-card" href="lab-08-sentiment.md">
+  <span class="caisp-kicker">Next · Lab 2.8</span>
+  <span class="caisp-card-title">Sentiment Analysis</span>
+  <span class="caisp-card-text">Classification, confidence, and why confidence lies.</span>
 </a>
-
 </div>
