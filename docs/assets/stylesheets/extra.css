@@ -1,0 +1,191 @@
+/* ==========================================================================
+   cAISP course theme overrides
+   ========================================================================== */
+
+:root {
+  --caisp-lab: #7e57c2;
+  --caisp-danger: #e53935;
+}
+
+/* Slightly wider content column for long-form reading */
+.md-grid {
+  max-width: 62rem;
+}
+
+/* Readable body copy */
+.md-typeset {
+  font-size: 0.78rem;
+  line-height: 1.75;
+}
+
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.md-typeset h2 {
+  font-weight: 650;
+  margin-top: 2.2em;
+  padding-top: 0.4em;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* --------------------------------------------------------------------------
+   Home page hero
+   -------------------------------------------------------------------------- */
+.caisp-hero {
+  padding: 2.5rem 0 1.5rem;
+  text-align: center;
+}
+
+.caisp-hero h1 {
+  margin: 0 0 0.3em;
+  font-size: 2.1rem;
+  line-height: 1.15;
+}
+
+.caisp-hero p {
+  font-size: 0.95rem;
+  color: var(--md-default-fg-color--light);
+  max-width: 40rem;
+  margin: 0 auto 1.4rem;
+}
+
+/* --------------------------------------------------------------------------
+   Card grid (used with attr_list + md_in_html)
+   -------------------------------------------------------------------------- */
+.caisp-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.caisp-card {
+  display: block;
+  padding: 1.1rem 1.2rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5rem;
+  background: var(--md-default-bg-color);
+  transition: border-color 160ms, transform 160ms, box-shadow 160ms;
+  color: inherit !important;
+}
+
+.caisp-card:hover {
+  border-color: var(--md-accent-fg-color);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+}
+
+.caisp-card h3 {
+  margin: 0 0 0.35rem !important;
+  font-size: 0.85rem;
+  font-weight: 650;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.caisp-card p {
+  margin: 0;
+  font-size: 0.72rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.caisp-card .caisp-kicker {
+  display: block;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  color: var(--md-accent-fg-color);
+  margin-bottom: 0.4rem;
+}
+
+/* --------------------------------------------------------------------------
+   Learning-objective block
+   -------------------------------------------------------------------------- */
+.md-typeset .admonition.objective,
+.md-typeset details.objective {
+  border-color: #00897b;
+}
+
+.md-typeset .objective > .admonition-title,
+.md-typeset .objective > summary {
+  background-color: rgba(0, 137, 123, 0.1);
+}
+
+.md-typeset .objective > .admonition-title::before,
+.md-typeset .objective > summary::before {
+  background-color: #00897b;
+  -webkit-mask-image: var(--md-admonition-icon--tip);
+  mask-image: var(--md-admonition-icon--tip);
+}
+
+/* Lab block */
+.md-typeset .admonition.lab,
+.md-typeset details.lab {
+  border-color: var(--caisp-lab);
+}
+
+.md-typeset .lab > .admonition-title,
+.md-typeset .lab > summary {
+  background-color: rgba(126, 87, 194, 0.1);
+}
+
+.md-typeset .lab > .admonition-title::before,
+.md-typeset .lab > summary::before {
+  background-color: var(--caisp-lab);
+  -webkit-mask-image: var(--md-admonition-icon--example);
+  mask-image: var(--md-admonition-icon--example);
+}
+
+/* --------------------------------------------------------------------------
+   Metadata pills under chapter titles
+   -------------------------------------------------------------------------- */
+.caisp-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: -0.5rem 0 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.caisp-meta li {
+  font-size: 0.62rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.22rem 0.6rem;
+  border-radius: 1rem;
+  background: var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color--light);
+  margin: 0 !important;
+}
+
+/* --------------------------------------------------------------------------
+   Key-term callout
+   -------------------------------------------------------------------------- */
+.md-typeset dl.caisp-terms dt {
+  font-weight: 700;
+  margin-top: 0.9em;
+}
+
+.md-typeset dl.caisp-terms dd {
+  margin-left: 0;
+  padding-left: 0.9rem;
+  border-left: 3px solid var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color--light);
+}
+
+/* Tables breathe a bit more */
+.md-typeset table:not([class]) th {
+  background: var(--md-default-fg-color--lightest);
+  font-weight: 650;
+}
+
+/* Footer nav emphasis */
+.md-footer__link {
+  opacity: 0.9;
+}

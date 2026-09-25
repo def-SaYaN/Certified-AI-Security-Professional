@@ -1,0 +1,217 @@
+site_name: Certified AI Security Professional
+site_description: A beginner-friendly, hands-on course in AI and LLM security.
+site_author: cAISP Course Team
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
+
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/shield-lock-outline
+    repo: fontawesome/brands/git-alt
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Follow system theme
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+    - announce.dismiss
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      permalink_title: Link to this section
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - tags
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  generator: false
+  social:
+    - icon: material/school-outline
+      link: /
+      name: Course home
+
+nav:
+  - Home: index.md
+  - Start Here:
+      - start-here/index.md
+      - About This Course: start-here/about-the-course.md
+      - Syllabus & Roadmap: start-here/syllabus.md
+      - Certification Guide: start-here/certification.md
+      - Lab Environment Setup: start-here/lab-environment.md
+      - Course Support (Mattermost): start-here/support.md
+      - Glossary: start-here/glossary.md
+  - Chapter 1 — Intro to AI Security:
+      - chapter-01/index.md
+      - 1.1 An Overview of AI Security: chapter-01/01-overview-of-ai-security.md
+      - 1.2 Basics of AI: chapter-01/02-basics-of-ai.md
+      - 1.3 Types of AI: chapter-01/03-types-of-ai.md
+      - 1.4 Core Components of AI Systems: chapter-01/04-core-components.md
+      - 1.5 Introduction to Machine Learning: chapter-01/05-intro-to-ml.md
+      - 1.6 Retrieval Augmented Generation: chapter-01/06-rag.md
+      - 1.7 Basics of Deep Learning: chapter-01/07-deep-learning.md
+      - "Lab 1.1 — Build a Chatbot with an LLM": chapter-01/lab-01-chatbot.md
+      - Chapter 1 Review & Quiz: chapter-01/review.md
+  - Chapter 2 — Understanding & Attacking LLMs:
+      - chapter-02/index.md
+      - 2.1 Introduction to LLMs: chapter-02/01-intro-to-llms.md
+      - 2.2 Understanding LLMs — GPT & BERT: chapter-02/02-gpt-and-bert.md
+      - 2.3 Training & Augmenting LLMs: chapter-02/03-training-and-augmenting.md
+      - 2.4 Use Cases of LLMs: chapter-02/04-use-cases.md
+      - 2.5 Attack Tactics — ATT&CK & ATLAS: chapter-02/05-attack-tactics-atlas.md
+      - 2.6 Real-World Malicious LLM Tools: chapter-02/06-malicious-llm-tools.md
+      - "Lab 2.1 — A Simple Chatbot": chapter-02/lab-01-simple-chatbot.md
+      - "Lab 2.2 — How Tokenizers Work": chapter-02/lab-02-tokenizers.md
+      - "Lab 2.3 — Build a Summarizer": chapter-02/lab-03-summarizer.md
+      - "Lab 2.4 — Fine-tune a Model": chapter-02/lab-04-fine-tuning.md
+      - "Lab 2.5 — A Website Scraper": chapter-02/lab-05-scraper.md
+      - "Lab 2.6 — Build a RAG System": chapter-02/lab-06-rag.md
+      - "Lab 2.7 — Attacking with TextAttack": chapter-02/lab-07-textattack.md
+      - "Lab 2.8 — Sentiment Analysis": chapter-02/lab-08-sentiment.md
+      - "Lab 2.9 — Backdoor Attacks (Defensive)": chapter-02/lab-09-backdoors.md
+      - "Lab 2.10 — Speech-to-Text": chapter-02/lab-10-speech-to-text.md
+      - Chapter 2 Review & Quiz: chapter-02/review.md
+  - Chapter 3 — LLM Top 10 Vulnerabilities:
+      - chapter-03/index.md
+      - 3.0 Introduction to the OWASP Top 10: chapter-03/00-owasp-intro.md
+      - "LLM01 — Prompt Injection": chapter-03/01-prompt-injection.md
+      - "LLM02 — Insecure Output Handling": chapter-03/02-insecure-output-handling.md
+      - "LLM03 — Training Data Poisoning": chapter-03/03-training-data-poisoning.md
+      - "LLM04 — Model Denial of Service": chapter-03/04-model-dos.md
+      - "LLM05 — Supply Chain Vulnerabilities": chapter-03/05-supply-chain.md
+      - "LLM06 — Sensitive Information Disclosure": chapter-03/06-sensitive-info-disclosure.md
+      - "LLM07 — Insecure Plugin Design": chapter-03/07-insecure-plugin-design.md
+      - "LLM08 — Excessive Agency": chapter-03/08-excessive-agency.md
+      - "LLM09 — Overreliance": chapter-03/09-overreliance.md
+      - "LLM10 — Model Theft": chapter-03/10-model-theft.md
+      - "Lab 3.1 — Prompt Injection Step by Step": chapter-03/lab-01-prompt-injection.md
+      - "Lab 3.2 — System vs User Prompts": chapter-03/lab-02-system-user-prompts.md
+      - "Lab 3.3 — Extracting Sensitive Information": chapter-03/lab-03-data-extraction.md
+      - "Lab 3.4 — LLM Hallucination Lab": chapter-03/lab-04-hallucination.md
+      - Chapter 3 Review & Quiz: chapter-03/review.md
+  - Chapter 4 — AI Attacks & Defenses Using DevOps:
+      - chapter-04/index.md
+      - 4.1 Introduction to AI in DevOps: chapter-04/01-ai-in-devops.md
+      - 4.2 The ML Pipeline & Its Attack Surface: chapter-04/02-ml-pipeline-attacks.md
+      - 4.3 Real-World Cases: chapter-04/03-real-world-cases.md
+      - 4.4 DevSecOps Tooling & Defenses: chapter-04/04-devsecops-tooling.md
+      - "Lab 4.1 — Vulnerable Third-Party Components": chapter-04/lab-01-sca.md
+      - "Lab 4.2 — Finding Weaknesses in AI Code": chapter-04/lab-02-static-analysis.md
+      - "Lab 4.3 — Scanning a Malicious Pickle File": chapter-04/lab-03-picklescan.md
+      - "Lab 4.4 — Scanning for Agent Vulnerabilities": chapter-04/lab-04-agent-scanning.md
+      - "Lab 4.5 — Sanitizing Prompts with LLM Guard": chapter-04/lab-05-llm-guard.md
+      - "Lab 4.6 — Guarding LLM Input and Output": chapter-04/lab-06-guardrails.md
+      - Chapter 4 Review & Quiz: chapter-04/review.md
+  - Chapter 5 — Threat Modeling AI Systems:
+      - chapter-05/index.md
+      - 5.1 What Is Threat Modeling: chapter-05/01-what-is-threat-modeling.md
+      - 5.2 The Threat Model Parlance: chapter-05/02-parlance.md
+      - 5.3 Diagramming & Data Flow Diagrams: chapter-05/03-diagramming-dfd.md
+      - 5.4 An LLM Application Architecture: chapter-05/04-llm-architecture.md
+      - 5.5 AI Threat Libraries: chapter-05/05-threat-libraries.md
+      - 5.6 Rating & Managing Risks: chapter-05/06-rating-risks.md
+      - "Lab 5.1 — Threat Modeling an AI System": chapter-05/lab-01-threat-model.md
+      - Chapter 5 Review & Quiz: chapter-05/review.md
+  - Chapter 6 — Supply Chain Attacks in AI:
+      - chapter-06/index.md
+      - 6.1 Supply Chain Security Overview: chapter-06/01-overview.md
+      - 6.2 AI Supply Chain Attacks: chapter-06/02-ai-supply-chain-attacks.md
+      - 6.3 Vetting Software Frameworks: chapter-06/03-vetting.md
+      - 6.4 Supply Chain Frameworks — SLSA & SCVS: chapter-06/04-frameworks.md
+      - 6.5 Transparency & Integrity: chapter-06/05-transparency-integrity.md
+      - "Lab 6.1 — Editing Models (ROME concept)": chapter-06/lab-01-rome.md
+      - "Lab 6.2 — How Trojanized Models Work": chapter-06/lab-02-trojanized-models.md
+      - "Lab 6.3 — Scanning Models for Malicious Code": chapter-06/lab-03-scanning.md
+      - "Lab 6.4 — Generating an SBOM": chapter-06/lab-04-sbom.md
+      - "Lab 6.5 — Signing & Verifying Models": chapter-06/lab-05-signing.md
+      - Chapter 6 Review & Quiz: chapter-06/review.md
+  - Chapter 7 — Emerging Threats, Governance & Compliance:
+      - chapter-07/index.md
+      - 7.1 Emerging Threats in AI: chapter-07/01-emerging-threats.md
+      - 7.2 AI Governance & Standards: chapter-07/02-governance-standards.md
+      - 7.3 AI Acts, Bills & Legislation: chapter-07/03-legislation.md
+      - "Lab 7.1 — Working with AI Agents": chapter-07/lab-01-agents.md
+      - "Lab 7.2 — Assessing & Abusing AI Agents": chapter-07/lab-02-abusing-agents.md
+      - Chapter 7 Review & Quiz: chapter-07/review.md
+  - Course Wrap-Up:
+      - wrap-up/index.md

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# MkDocs build output
+site/
+
+# Lab artefacts
+labs/**/_finetune_out/
+labs/**/_samples/
+labs/**/_signing/
+sbom*.json
+labs/**/*.log
+*.wav
+*.mp3
+*.m4a
+
+# Model / dataset caches
+.cache/
+~/.cache/huggingface/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

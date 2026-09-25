@@ -1,0 +1,49 @@
+# =============================================================================
+# cAISP — Course lab dependencies
+# =============================================================================
+# Install everything with:
+#     pip install -r labs/requirements.txt
+#
+# Notes for beginners:
+#   * Versions are pinned with ">=" lower bounds and kept deliberately loose so
+#     this installs on a wide range of machines and Python versions.
+#   * You do NOT need a GPU. The CPU build of PyTorch is fine for every
+#     mandatory lab.
+#   * If an optional-heavy package fails to install on your machine, that is OK
+#     for the early chapters — see the per-lab notes. The core set below is what
+#     Chapter 1 needs.
+# =============================================================================
+
+# --- Core: needed from Chapter 1 onward -------------------------------------
+transformers>=4.40
+torch>=2.2
+huggingface-hub>=0.23
+numpy>=1.26
+requests>=2.31
+rich>=13.7            # nice terminal output for the labs
+
+# --- Data / classic ML (Chapters 1-2) ---------------------------------------
+scikit-learn>=1.4
+pandas>=2.2
+
+# --- RAG + embeddings (Chapters 1-2, 5) -------------------------------------
+sentence-transformers>=2.7
+faiss-cpu>=1.8; platform_system != "Windows"   # vector search (Win: see notes)
+
+# --- Web / scraping (Chapter 2) ---------------------------------------------
+beautifulsoup4>=4.12
+
+# --- Serving simple lab apps (Chapters 2-4) ---------------------------------
+flask>=3.0
+
+# --- Defensive tooling (Chapters 4, 6) --------------------------------------
+picklescan>=0.0.20        # scan pickle files for malicious opcodes
+
+# =============================================================================
+# The packages below are OPTIONAL and introduced in later chapters. They are
+# listed here for reference. Install them when the relevant chapter asks you to,
+# not up front — some are large.
+# =============================================================================
+# textattack>=0.3.10        # Chapter 2 — adversarial NLP
+# llm-guard>=0.3.14         # Chapter 4 — prompt/response guardrails
+# cyclonedx-bom>=4.0        # Chapter 6 — SBOM generation
